@@ -1,0 +1,4 @@
+opcua
+opcua-webclient
+cryptography
+jsons
