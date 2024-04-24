@@ -1,0 +1,4014 @@
+{
+    "Girea-HMI": {
+        "ns": 1,
+        "i": 1
+    },
+    "Girea-HMI_EMS": {
+        "ns": 1,
+        "i": 2
+    },
+    "Girea-HMI_Erzeuger": {
+        "ns": 1,
+        "i": 3
+    },
+    "Girea-HMI_Verbraucher": {
+        "ns": 1,
+        "i": 4
+    },
+    "Girea-HMI_Speicher": {
+        "ns": 1,
+        "i": 5
+    },
+    "Girea-HMI_Netzanbieter": {
+        "ns": 1,
+        "i": 6
+    },
+    "Girea-HMI_Wetter": {
+        "ns": 1,
+        "i": 7
+    },
+    "Girea-HMI_EMS_system": {
+        "ns": 1,
+        "i": 8
+    },
+    "Girea-HMI_EMS_betriebsarten": {
+        "ns": 1,
+        "i": 9
+    },
+    "Girea-HMI_EMS_Lizens": {
+        "ns": 1,
+        "i": 10
+    },
+    "Girea-HMI_EMS_system_Datum": {
+        "ns": 1,
+        "i": 11
+    },
+    "Girea-HMI_EMS_system_aktuelle zeit in minuten": {
+        "ns": 1,
+        "i": 12
+    },
+    "Girea-HMI_EMS_system_aktuelle zeit in sekunden": {
+        "ns": 1,
+        "i": 13
+    },
+    "Girea-HMI_EMS_betriebsarten_ID": {
+        "ns": 1,
+        "i": 14
+    },
+    "Girea-HMI_EMS_betriebsarten_text": {
+        "ns": 1,
+        "i": 15
+    },
+    "Girea-HMI_EMS_Lizens_Erzeuger": {
+        "ns": 1,
+        "i": 16
+    },
+    "Girea-HMI_EMS_Lizens_Verbraucher": {
+        "ns": 1,
+        "i": 17
+    },
+    "Girea-HMI_EMS_Lizens_Speicher": {
+        "ns": 1,
+        "i": 18
+    },
+    "Girea-HMI_Erzeuger_gesamt kW": {
+        "ns": 1,
+        "i": 19
+    },
+    "Girea-HMI_Erzeuger_min index": {
+        "ns": 1,
+        "i": 20
+    },
+    "Girea-HMI_Erzeuger_max index": {
+        "ns": 1,
+        "i": 21
+    },
+    "Girea-HMI_Erzeuger_[0]": {
+        "ns": 1,
+        "i": 22
+    },
+    "Girea-HMI_Erzeuger_[1]": {
+        "ns": 1,
+        "i": 23
+    },
+    "Girea-HMI_Erzeuger_[2]": {
+        "ns": 1,
+        "i": 24
+    },
+    "Girea-HMI_Erzeuger_[0]_Parameter": {
+        "ns": 1,
+        "i": 25
+    },
+    "Girea-HMI_Erzeuger_[0]_type": {
+        "ns": 1,
+        "i": 26
+    },
+    "Girea-HMI_Erzeuger_[0]_HMI-Best\u00e4tigung": {
+        "ns": 1,
+        "i": 27
+    },
+    "Girea-HMI_Erzeuger_[0]_in Betrieb": {
+        "ns": 1,
+        "i": 28
+    },
+    "Girea-HMI_Erzeuger_[0]_live kW": {
+        "ns": 1,
+        "i": 29
+    },
+    "Girea-HMI_Erzeuger_[0]_verdrahtet": {
+        "ns": 1,
+        "i": 30
+    },
+    "Girea-HMI_Erzeuger_[0]_Parameter_Ge\u00e4ndert durch": {
+        "ns": 1,
+        "i": 31
+    },
+    "Girea-HMI_Erzeuger_[0]_Parameter_Name": {
+        "ns": 1,
+        "i": 32
+    },
+    "Girea-HMI_Erzeuger_[0]_Parameter_Kenzeichung": {
+        "ns": 1,
+        "i": 33
+    },
+    "Girea-HMI_Erzeuger_[0]_Parameter_Durchschnitt kW": {
+        "ns": 1,
+        "i": 34
+    },
+    "Girea-HMI_Erzeuger_[0]_Parameter_NennLeistung": {
+        "ns": 1,
+        "i": 35
+    },
+    "Girea-HMI_Erzeuger_[0]_Parameter_abschaltbar": {
+        "ns": 1,
+        "i": 36
+    },
+    "Girea-HMI_Erzeuger_[0]_Parameter_Priotit\u00e4t": {
+        "ns": 1,
+        "i": 37
+    },
+    "Girea-HMI_Erzeuger_[0]_Parameter_heitzwert": {
+        "ns": 1,
+        "i": 38
+    },
+    "Girea-HMI_Erzeuger_[0]_Parameter_E-wirkungsgrad": {
+        "ns": 1,
+        "i": 39
+    },
+    "Girea-HMI_Erzeuger_[0]_Parameter_anlauf-zeit in s": {
+        "ns": 1,
+        "i": 40
+    },
+    "Girea-HMI_Erzeuger_[0]_Parameter_MIN-Laufzeit in s": {
+        "ns": 1,
+        "i": 41
+    },
+    "Girea-HMI_Erzeuger_[0]_Parameter_DSW-Laufzeit in s": {
+        "ns": 1,
+        "i": 42
+    },
+    "Girea-HMI_Erzeuger_[0]_Parameter_MAX-Laufzeit in s": {
+        "ns": 1,
+        "i": 43
+    },
+    "Girea-HMI_Erzeuger_[0]_Parameter_MIN-Pausenzeit in s": {
+        "ns": 1,
+        "i": 44
+    },
+    "Girea-HMI_Erzeuger_[0]_Parameter_DSW-Pausenzeit in s": {
+        "ns": 1,
+        "i": 45
+    },
+    "Girea-HMI_Erzeuger_[0]_Parameter_MAX-Pausenzeit in s": {
+        "ns": 1,
+        "i": 46
+    },
+    "Girea-HMI_Erzeuger_[0]_Parameter_tages-Laufzeit in %": {
+        "ns": 1,
+        "i": 47
+    },
+    "Girea-HMI_Erzeuger_[1]_Parameter": {
+        "ns": 1,
+        "i": 48
+    },
+    "Girea-HMI_Erzeuger_[1]_type": {
+        "ns": 1,
+        "i": 49
+    },
+    "Girea-HMI_Erzeuger_[1]_HMI-Best\u00e4tigung": {
+        "ns": 1,
+        "i": 50
+    },
+    "Girea-HMI_Erzeuger_[1]_in Betrieb": {
+        "ns": 1,
+        "i": 51
+    },
+    "Girea-HMI_Erzeuger_[1]_live kW": {
+        "ns": 1,
+        "i": 52
+    },
+    "Girea-HMI_Erzeuger_[1]_verdrahtet": {
+        "ns": 1,
+        "i": 53
+    },
+    "Girea-HMI_Erzeuger_[1]_Parameter_Ge\u00e4ndert durch": {
+        "ns": 1,
+        "i": 54
+    },
+    "Girea-HMI_Erzeuger_[1]_Parameter_Name": {
+        "ns": 1,
+        "i": 55
+    },
+    "Girea-HMI_Erzeuger_[1]_Parameter_Kenzeichung": {
+        "ns": 1,
+        "i": 56
+    },
+    "Girea-HMI_Erzeuger_[1]_Parameter_Durchschnitt kW": {
+        "ns": 1,
+        "i": 57
+    },
+    "Girea-HMI_Erzeuger_[1]_Parameter_NennLeistung": {
+        "ns": 1,
+        "i": 58
+    },
+    "Girea-HMI_Erzeuger_[1]_Parameter_abschaltbar": {
+        "ns": 1,
+        "i": 59
+    },
+    "Girea-HMI_Erzeuger_[1]_Parameter_Priotit\u00e4t": {
+        "ns": 1,
+        "i": 60
+    },
+    "Girea-HMI_Erzeuger_[1]_Parameter_heitzwert": {
+        "ns": 1,
+        "i": 61
+    },
+    "Girea-HMI_Erzeuger_[1]_Parameter_E-wirkungsgrad": {
+        "ns": 1,
+        "i": 62
+    },
+    "Girea-HMI_Erzeuger_[1]_Parameter_anlauf-zeit in s": {
+        "ns": 1,
+        "i": 63
+    },
+    "Girea-HMI_Erzeuger_[1]_Parameter_MIN-Laufzeit in s": {
+        "ns": 1,
+        "i": 64
+    },
+    "Girea-HMI_Erzeuger_[1]_Parameter_DSW-Laufzeit in s": {
+        "ns": 1,
+        "i": 65
+    },
+    "Girea-HMI_Erzeuger_[1]_Parameter_MAX-Laufzeit in s": {
+        "ns": 1,
+        "i": 66
+    },
+    "Girea-HMI_Erzeuger_[1]_Parameter_MIN-Pausenzeit in s": {
+        "ns": 1,
+        "i": 67
+    },
+    "Girea-HMI_Erzeuger_[1]_Parameter_DSW-Pausenzeit in s": {
+        "ns": 1,
+        "i": 68
+    },
+    "Girea-HMI_Erzeuger_[1]_Parameter_MAX-Pausenzeit in s": {
+        "ns": 1,
+        "i": 69
+    },
+    "Girea-HMI_Erzeuger_[1]_Parameter_tages-Laufzeit in %": {
+        "ns": 1,
+        "i": 70
+    },
+    "Girea-HMI_Erzeuger_[2]_Parameter": {
+        "ns": 1,
+        "i": 71
+    },
+    "Girea-HMI_Erzeuger_[2]_type": {
+        "ns": 1,
+        "i": 72
+    },
+    "Girea-HMI_Erzeuger_[2]_HMI-Best\u00e4tigung": {
+        "ns": 1,
+        "i": 73
+    },
+    "Girea-HMI_Erzeuger_[2]_in Betrieb": {
+        "ns": 1,
+        "i": 74
+    },
+    "Girea-HMI_Erzeuger_[2]_live kW": {
+        "ns": 1,
+        "i": 75
+    },
+    "Girea-HMI_Erzeuger_[2]_verdrahtet": {
+        "ns": 1,
+        "i": 76
+    },
+    "Girea-HMI_Erzeuger_[2]_Parameter_Ge\u00e4ndert durch": {
+        "ns": 1,
+        "i": 77
+    },
+    "Girea-HMI_Erzeuger_[2]_Parameter_Name": {
+        "ns": 1,
+        "i": 78
+    },
+    "Girea-HMI_Erzeuger_[2]_Parameter_Kenzeichung": {
+        "ns": 1,
+        "i": 79
+    },
+    "Girea-HMI_Erzeuger_[2]_Parameter_Durchschnitt kW": {
+        "ns": 1,
+        "i": 80
+    },
+    "Girea-HMI_Erzeuger_[2]_Parameter_NennLeistung": {
+        "ns": 1,
+        "i": 81
+    },
+    "Girea-HMI_Erzeuger_[2]_Parameter_abschaltbar": {
+        "ns": 1,
+        "i": 82
+    },
+    "Girea-HMI_Erzeuger_[2]_Parameter_Priotit\u00e4t": {
+        "ns": 1,
+        "i": 83
+    },
+    "Girea-HMI_Erzeuger_[2]_Parameter_heitzwert": {
+        "ns": 1,
+        "i": 84
+    },
+    "Girea-HMI_Erzeuger_[2]_Parameter_E-wirkungsgrad": {
+        "ns": 1,
+        "i": 85
+    },
+    "Girea-HMI_Erzeuger_[2]_Parameter_anlauf-zeit in s": {
+        "ns": 1,
+        "i": 86
+    },
+    "Girea-HMI_Erzeuger_[2]_Parameter_MIN-Laufzeit in s": {
+        "ns": 1,
+        "i": 87
+    },
+    "Girea-HMI_Erzeuger_[2]_Parameter_DSW-Laufzeit in s": {
+        "ns": 1,
+        "i": 88
+    },
+    "Girea-HMI_Erzeuger_[2]_Parameter_MAX-Laufzeit in s": {
+        "ns": 1,
+        "i": 89
+    },
+    "Girea-HMI_Erzeuger_[2]_Parameter_MIN-Pausenzeit in s": {
+        "ns": 1,
+        "i": 90
+    },
+    "Girea-HMI_Erzeuger_[2]_Parameter_DSW-Pausenzeit in s": {
+        "ns": 1,
+        "i": 91
+    },
+    "Girea-HMI_Erzeuger_[2]_Parameter_MAX-Pausenzeit in s": {
+        "ns": 1,
+        "i": 92
+    },
+    "Girea-HMI_Erzeuger_[2]_Parameter_tages-Laufzeit in %": {
+        "ns": 1,
+        "i": 93
+    },
+    "Girea-HMI_Verbraucher_gesamt kW": {
+        "ns": 1,
+        "i": 94
+    },
+    "Girea-HMI_Verbraucher_min index": {
+        "ns": 1,
+        "i": 95
+    },
+    "Girea-HMI_Verbraucher_max index": {
+        "ns": 1,
+        "i": 96
+    },
+    "Girea-HMI_Verbraucher_[0]": {
+        "ns": 1,
+        "i": 97
+    },
+    "Girea-HMI_Verbraucher_[1]": {
+        "ns": 1,
+        "i": 98
+    },
+    "Girea-HMI_Verbraucher_[2]": {
+        "ns": 1,
+        "i": 99
+    },
+    "Girea-HMI_Verbraucher_[3]": {
+        "ns": 1,
+        "i": 100
+    },
+    "Girea-HMI_Verbraucher_[4]": {
+        "ns": 1,
+        "i": 101
+    },
+    "Girea-HMI_Verbraucher_[5]": {
+        "ns": 1,
+        "i": 102
+    },
+    "Girea-HMI_Verbraucher_[6]": {
+        "ns": 1,
+        "i": 103
+    },
+    "Girea-HMI_Verbraucher_[7]": {
+        "ns": 1,
+        "i": 104
+    },
+    "Girea-HMI_Verbraucher_[8]": {
+        "ns": 1,
+        "i": 105
+    },
+    "Girea-HMI_Verbraucher_[9]": {
+        "ns": 1,
+        "i": 106
+    },
+    "Girea-HMI_Verbraucher_[10]": {
+        "ns": 1,
+        "i": 107
+    },
+    "Girea-HMI_Verbraucher_[11]": {
+        "ns": 1,
+        "i": 108
+    },
+    "Girea-HMI_Verbraucher_[0]_Parameter": {
+        "ns": 1,
+        "i": 109
+    },
+    "Girea-HMI_Verbraucher_[0]_HMI-Best\u00e4tigung": {
+        "ns": 1,
+        "i": 110
+    },
+    "Girea-HMI_Verbraucher_[0]_in Betrieb": {
+        "ns": 1,
+        "i": 111
+    },
+    "Girea-HMI_Verbraucher_[0]_live kW": {
+        "ns": 1,
+        "i": 112
+    },
+    "Girea-HMI_Verbraucher_[0]_verdrahtet": {
+        "ns": 1,
+        "i": 113
+    },
+    "Girea-HMI_Verbraucher_[0]_Parameter_Ge\u00e4ndert durch": {
+        "ns": 1,
+        "i": 114
+    },
+    "Girea-HMI_Verbraucher_[0]_Parameter_Name": {
+        "ns": 1,
+        "i": 115
+    },
+    "Girea-HMI_Verbraucher_[0]_Parameter_Kenzeichung": {
+        "ns": 1,
+        "i": 116
+    },
+    "Girea-HMI_Verbraucher_[0]_Parameter_Durchschnitt kW": {
+        "ns": 1,
+        "i": 117
+    },
+    "Girea-HMI_Verbraucher_[0]_Parameter_NennLeistung": {
+        "ns": 1,
+        "i": 118
+    },
+    "Girea-HMI_Verbraucher_[0]_Parameter_abschaltbar": {
+        "ns": 1,
+        "i": 119
+    },
+    "Girea-HMI_Verbraucher_[0]_Parameter_ueberschuss": {
+        "ns": 1,
+        "i": 120
+    },
+    "Girea-HMI_Verbraucher_[0]_Parameter_Priotit\u00e4t": {
+        "ns": 1,
+        "i": 121
+    },
+    "Girea-HMI_Verbraucher_[0]_Parameter_anlauf-zeit in s": {
+        "ns": 1,
+        "i": 122
+    },
+    "Girea-HMI_Verbraucher_[0]_Parameter_MIN-Laufzeit in s": {
+        "ns": 1,
+        "i": 123
+    },
+    "Girea-HMI_Verbraucher_[0]_Parameter_DSW-Laufzeit in s": {
+        "ns": 1,
+        "i": 124
+    },
+    "Girea-HMI_Verbraucher_[0]_Parameter_MAX-Laufzeit in s": {
+        "ns": 1,
+        "i": 125
+    },
+    "Girea-HMI_Verbraucher_[0]_Parameter_MIN-Pausenzeit in s": {
+        "ns": 1,
+        "i": 126
+    },
+    "Girea-HMI_Verbraucher_[0]_Parameter_DSW-Pausenzeit in s": {
+        "ns": 1,
+        "i": 127
+    },
+    "Girea-HMI_Verbraucher_[0]_Parameter_MAX-Pausenzeit in s": {
+        "ns": 1,
+        "i": 128
+    },
+    "Girea-HMI_Verbraucher_[0]_Parameter_tages-Laufzeit in %": {
+        "ns": 1,
+        "i": 129
+    },
+    "Girea-HMI_Verbraucher_[1]_Parameter": {
+        "ns": 1,
+        "i": 130
+    },
+    "Girea-HMI_Verbraucher_[1]_HMI-Best\u00e4tigung": {
+        "ns": 1,
+        "i": 131
+    },
+    "Girea-HMI_Verbraucher_[1]_in Betrieb": {
+        "ns": 1,
+        "i": 132
+    },
+    "Girea-HMI_Verbraucher_[1]_live kW": {
+        "ns": 1,
+        "i": 133
+    },
+    "Girea-HMI_Verbraucher_[1]_verdrahtet": {
+        "ns": 1,
+        "i": 134
+    },
+    "Girea-HMI_Verbraucher_[1]_Parameter_Ge\u00e4ndert durch": {
+        "ns": 1,
+        "i": 135
+    },
+    "Girea-HMI_Verbraucher_[1]_Parameter_Name": {
+        "ns": 1,
+        "i": 136
+    },
+    "Girea-HMI_Verbraucher_[1]_Parameter_Kenzeichung": {
+        "ns": 1,
+        "i": 137
+    },
+    "Girea-HMI_Verbraucher_[1]_Parameter_Durchschnitt kW": {
+        "ns": 1,
+        "i": 138
+    },
+    "Girea-HMI_Verbraucher_[1]_Parameter_NennLeistung": {
+        "ns": 1,
+        "i": 139
+    },
+    "Girea-HMI_Verbraucher_[1]_Parameter_abschaltbar": {
+        "ns": 1,
+        "i": 140
+    },
+    "Girea-HMI_Verbraucher_[1]_Parameter_ueberschuss": {
+        "ns": 1,
+        "i": 141
+    },
+    "Girea-HMI_Verbraucher_[1]_Parameter_Priotit\u00e4t": {
+        "ns": 1,
+        "i": 142
+    },
+    "Girea-HMI_Verbraucher_[1]_Parameter_anlauf-zeit in s": {
+        "ns": 1,
+        "i": 143
+    },
+    "Girea-HMI_Verbraucher_[1]_Parameter_MIN-Laufzeit in s": {
+        "ns": 1,
+        "i": 144
+    },
+    "Girea-HMI_Verbraucher_[1]_Parameter_DSW-Laufzeit in s": {
+        "ns": 1,
+        "i": 145
+    },
+    "Girea-HMI_Verbraucher_[1]_Parameter_MAX-Laufzeit in s": {
+        "ns": 1,
+        "i": 146
+    },
+    "Girea-HMI_Verbraucher_[1]_Parameter_MIN-Pausenzeit in s": {
+        "ns": 1,
+        "i": 147
+    },
+    "Girea-HMI_Verbraucher_[1]_Parameter_DSW-Pausenzeit in s": {
+        "ns": 1,
+        "i": 148
+    },
+    "Girea-HMI_Verbraucher_[1]_Parameter_MAX-Pausenzeit in s": {
+        "ns": 1,
+        "i": 149
+    },
+    "Girea-HMI_Verbraucher_[1]_Parameter_tages-Laufzeit in %": {
+        "ns": 1,
+        "i": 150
+    },
+    "Girea-HMI_Verbraucher_[2]_Parameter": {
+        "ns": 1,
+        "i": 151
+    },
+    "Girea-HMI_Verbraucher_[2]_HMI-Best\u00e4tigung": {
+        "ns": 1,
+        "i": 152
+    },
+    "Girea-HMI_Verbraucher_[2]_in Betrieb": {
+        "ns": 1,
+        "i": 153
+    },
+    "Girea-HMI_Verbraucher_[2]_live kW": {
+        "ns": 1,
+        "i": 154
+    },
+    "Girea-HMI_Verbraucher_[2]_verdrahtet": {
+        "ns": 1,
+        "i": 155
+    },
+    "Girea-HMI_Verbraucher_[2]_Parameter_Ge\u00e4ndert durch": {
+        "ns": 1,
+        "i": 156
+    },
+    "Girea-HMI_Verbraucher_[2]_Parameter_Name": {
+        "ns": 1,
+        "i": 157
+    },
+    "Girea-HMI_Verbraucher_[2]_Parameter_Kenzeichung": {
+        "ns": 1,
+        "i": 158
+    },
+    "Girea-HMI_Verbraucher_[2]_Parameter_Durchschnitt kW": {
+        "ns": 1,
+        "i": 159
+    },
+    "Girea-HMI_Verbraucher_[2]_Parameter_NennLeistung": {
+        "ns": 1,
+        "i": 160
+    },
+    "Girea-HMI_Verbraucher_[2]_Parameter_abschaltbar": {
+        "ns": 1,
+        "i": 161
+    },
+    "Girea-HMI_Verbraucher_[2]_Parameter_ueberschuss": {
+        "ns": 1,
+        "i": 162
+    },
+    "Girea-HMI_Verbraucher_[2]_Parameter_Priotit\u00e4t": {
+        "ns": 1,
+        "i": 163
+    },
+    "Girea-HMI_Verbraucher_[2]_Parameter_anlauf-zeit in s": {
+        "ns": 1,
+        "i": 164
+    },
+    "Girea-HMI_Verbraucher_[2]_Parameter_MIN-Laufzeit in s": {
+        "ns": 1,
+        "i": 165
+    },
+    "Girea-HMI_Verbraucher_[2]_Parameter_DSW-Laufzeit in s": {
+        "ns": 1,
+        "i": 166
+    },
+    "Girea-HMI_Verbraucher_[2]_Parameter_MAX-Laufzeit in s": {
+        "ns": 1,
+        "i": 167
+    },
+    "Girea-HMI_Verbraucher_[2]_Parameter_MIN-Pausenzeit in s": {
+        "ns": 1,
+        "i": 168
+    },
+    "Girea-HMI_Verbraucher_[2]_Parameter_DSW-Pausenzeit in s": {
+        "ns": 1,
+        "i": 169
+    },
+    "Girea-HMI_Verbraucher_[2]_Parameter_MAX-Pausenzeit in s": {
+        "ns": 1,
+        "i": 170
+    },
+    "Girea-HMI_Verbraucher_[2]_Parameter_tages-Laufzeit in %": {
+        "ns": 1,
+        "i": 171
+    },
+    "Girea-HMI_Verbraucher_[3]_Parameter": {
+        "ns": 1,
+        "i": 172
+    },
+    "Girea-HMI_Verbraucher_[3]_HMI-Best\u00e4tigung": {
+        "ns": 1,
+        "i": 173
+    },
+    "Girea-HMI_Verbraucher_[3]_in Betrieb": {
+        "ns": 1,
+        "i": 174
+    },
+    "Girea-HMI_Verbraucher_[3]_live kW": {
+        "ns": 1,
+        "i": 175
+    },
+    "Girea-HMI_Verbraucher_[3]_verdrahtet": {
+        "ns": 1,
+        "i": 176
+    },
+    "Girea-HMI_Verbraucher_[3]_Parameter_Ge\u00e4ndert durch": {
+        "ns": 1,
+        "i": 177
+    },
+    "Girea-HMI_Verbraucher_[3]_Parameter_Name": {
+        "ns": 1,
+        "i": 178
+    },
+    "Girea-HMI_Verbraucher_[3]_Parameter_Kenzeichung": {
+        "ns": 1,
+        "i": 179
+    },
+    "Girea-HMI_Verbraucher_[3]_Parameter_Durchschnitt kW": {
+        "ns": 1,
+        "i": 180
+    },
+    "Girea-HMI_Verbraucher_[3]_Parameter_NennLeistung": {
+        "ns": 1,
+        "i": 181
+    },
+    "Girea-HMI_Verbraucher_[3]_Parameter_abschaltbar": {
+        "ns": 1,
+        "i": 182
+    },
+    "Girea-HMI_Verbraucher_[3]_Parameter_ueberschuss": {
+        "ns": 1,
+        "i": 183
+    },
+    "Girea-HMI_Verbraucher_[3]_Parameter_Priotit\u00e4t": {
+        "ns": 1,
+        "i": 184
+    },
+    "Girea-HMI_Verbraucher_[3]_Parameter_anlauf-zeit in s": {
+        "ns": 1,
+        "i": 185
+    },
+    "Girea-HMI_Verbraucher_[3]_Parameter_MIN-Laufzeit in s": {
+        "ns": 1,
+        "i": 186
+    },
+    "Girea-HMI_Verbraucher_[3]_Parameter_DSW-Laufzeit in s": {
+        "ns": 1,
+        "i": 187
+    },
+    "Girea-HMI_Verbraucher_[3]_Parameter_MAX-Laufzeit in s": {
+        "ns": 1,
+        "i": 188
+    },
+    "Girea-HMI_Verbraucher_[3]_Parameter_MIN-Pausenzeit in s": {
+        "ns": 1,
+        "i": 189
+    },
+    "Girea-HMI_Verbraucher_[3]_Parameter_DSW-Pausenzeit in s": {
+        "ns": 1,
+        "i": 190
+    },
+    "Girea-HMI_Verbraucher_[3]_Parameter_MAX-Pausenzeit in s": {
+        "ns": 1,
+        "i": 191
+    },
+    "Girea-HMI_Verbraucher_[3]_Parameter_tages-Laufzeit in %": {
+        "ns": 1,
+        "i": 192
+    },
+    "Girea-HMI_Verbraucher_[4]_Parameter": {
+        "ns": 1,
+        "i": 193
+    },
+    "Girea-HMI_Verbraucher_[4]_HMI-Best\u00e4tigung": {
+        "ns": 1,
+        "i": 194
+    },
+    "Girea-HMI_Verbraucher_[4]_in Betrieb": {
+        "ns": 1,
+        "i": 195
+    },
+    "Girea-HMI_Verbraucher_[4]_live kW": {
+        "ns": 1,
+        "i": 196
+    },
+    "Girea-HMI_Verbraucher_[4]_verdrahtet": {
+        "ns": 1,
+        "i": 197
+    },
+    "Girea-HMI_Verbraucher_[4]_Parameter_Ge\u00e4ndert durch": {
+        "ns": 1,
+        "i": 198
+    },
+    "Girea-HMI_Verbraucher_[4]_Parameter_Name": {
+        "ns": 1,
+        "i": 199
+    },
+    "Girea-HMI_Verbraucher_[4]_Parameter_Kenzeichung": {
+        "ns": 1,
+        "i": 200
+    },
+    "Girea-HMI_Verbraucher_[4]_Parameter_Durchschnitt kW": {
+        "ns": 1,
+        "i": 201
+    },
+    "Girea-HMI_Verbraucher_[4]_Parameter_NennLeistung": {
+        "ns": 1,
+        "i": 202
+    },
+    "Girea-HMI_Verbraucher_[4]_Parameter_abschaltbar": {
+        "ns": 1,
+        "i": 203
+    },
+    "Girea-HMI_Verbraucher_[4]_Parameter_ueberschuss": {
+        "ns": 1,
+        "i": 204
+    },
+    "Girea-HMI_Verbraucher_[4]_Parameter_Priotit\u00e4t": {
+        "ns": 1,
+        "i": 205
+    },
+    "Girea-HMI_Verbraucher_[4]_Parameter_anlauf-zeit in s": {
+        "ns": 1,
+        "i": 206
+    },
+    "Girea-HMI_Verbraucher_[4]_Parameter_MIN-Laufzeit in s": {
+        "ns": 1,
+        "i": 207
+    },
+    "Girea-HMI_Verbraucher_[4]_Parameter_DSW-Laufzeit in s": {
+        "ns": 1,
+        "i": 208
+    },
+    "Girea-HMI_Verbraucher_[4]_Parameter_MAX-Laufzeit in s": {
+        "ns": 1,
+        "i": 209
+    },
+    "Girea-HMI_Verbraucher_[4]_Parameter_MIN-Pausenzeit in s": {
+        "ns": 1,
+        "i": 210
+    },
+    "Girea-HMI_Verbraucher_[4]_Parameter_DSW-Pausenzeit in s": {
+        "ns": 1,
+        "i": 211
+    },
+    "Girea-HMI_Verbraucher_[4]_Parameter_MAX-Pausenzeit in s": {
+        "ns": 1,
+        "i": 212
+    },
+    "Girea-HMI_Verbraucher_[4]_Parameter_tages-Laufzeit in %": {
+        "ns": 1,
+        "i": 213
+    },
+    "Girea-HMI_Verbraucher_[5]_Parameter": {
+        "ns": 1,
+        "i": 214
+    },
+    "Girea-HMI_Verbraucher_[5]_HMI-Best\u00e4tigung": {
+        "ns": 1,
+        "i": 215
+    },
+    "Girea-HMI_Verbraucher_[5]_in Betrieb": {
+        "ns": 1,
+        "i": 216
+    },
+    "Girea-HMI_Verbraucher_[5]_live kW": {
+        "ns": 1,
+        "i": 217
+    },
+    "Girea-HMI_Verbraucher_[5]_verdrahtet": {
+        "ns": 1,
+        "i": 218
+    },
+    "Girea-HMI_Verbraucher_[5]_Parameter_Ge\u00e4ndert durch": {
+        "ns": 1,
+        "i": 219
+    },
+    "Girea-HMI_Verbraucher_[5]_Parameter_Name": {
+        "ns": 1,
+        "i": 220
+    },
+    "Girea-HMI_Verbraucher_[5]_Parameter_Kenzeichung": {
+        "ns": 1,
+        "i": 221
+    },
+    "Girea-HMI_Verbraucher_[5]_Parameter_Durchschnitt kW": {
+        "ns": 1,
+        "i": 222
+    },
+    "Girea-HMI_Verbraucher_[5]_Parameter_NennLeistung": {
+        "ns": 1,
+        "i": 223
+    },
+    "Girea-HMI_Verbraucher_[5]_Parameter_abschaltbar": {
+        "ns": 1,
+        "i": 224
+    },
+    "Girea-HMI_Verbraucher_[5]_Parameter_ueberschuss": {
+        "ns": 1,
+        "i": 225
+    },
+    "Girea-HMI_Verbraucher_[5]_Parameter_Priotit\u00e4t": {
+        "ns": 1,
+        "i": 226
+    },
+    "Girea-HMI_Verbraucher_[5]_Parameter_anlauf-zeit in s": {
+        "ns": 1,
+        "i": 227
+    },
+    "Girea-HMI_Verbraucher_[5]_Parameter_MIN-Laufzeit in s": {
+        "ns": 1,
+        "i": 228
+    },
+    "Girea-HMI_Verbraucher_[5]_Parameter_DSW-Laufzeit in s": {
+        "ns": 1,
+        "i": 229
+    },
+    "Girea-HMI_Verbraucher_[5]_Parameter_MAX-Laufzeit in s": {
+        "ns": 1,
+        "i": 230
+    },
+    "Girea-HMI_Verbraucher_[5]_Parameter_MIN-Pausenzeit in s": {
+        "ns": 1,
+        "i": 231
+    },
+    "Girea-HMI_Verbraucher_[5]_Parameter_DSW-Pausenzeit in s": {
+        "ns": 1,
+        "i": 232
+    },
+    "Girea-HMI_Verbraucher_[5]_Parameter_MAX-Pausenzeit in s": {
+        "ns": 1,
+        "i": 233
+    },
+    "Girea-HMI_Verbraucher_[5]_Parameter_tages-Laufzeit in %": {
+        "ns": 1,
+        "i": 234
+    },
+    "Girea-HMI_Verbraucher_[6]_Parameter": {
+        "ns": 1,
+        "i": 235
+    },
+    "Girea-HMI_Verbraucher_[6]_HMI-Best\u00e4tigung": {
+        "ns": 1,
+        "i": 236
+    },
+    "Girea-HMI_Verbraucher_[6]_in Betrieb": {
+        "ns": 1,
+        "i": 237
+    },
+    "Girea-HMI_Verbraucher_[6]_live kW": {
+        "ns": 1,
+        "i": 238
+    },
+    "Girea-HMI_Verbraucher_[6]_verdrahtet": {
+        "ns": 1,
+        "i": 239
+    },
+    "Girea-HMI_Verbraucher_[6]_Parameter_Ge\u00e4ndert durch": {
+        "ns": 1,
+        "i": 240
+    },
+    "Girea-HMI_Verbraucher_[6]_Parameter_Name": {
+        "ns": 1,
+        "i": 241
+    },
+    "Girea-HMI_Verbraucher_[6]_Parameter_Kenzeichung": {
+        "ns": 1,
+        "i": 242
+    },
+    "Girea-HMI_Verbraucher_[6]_Parameter_Durchschnitt kW": {
+        "ns": 1,
+        "i": 243
+    },
+    "Girea-HMI_Verbraucher_[6]_Parameter_NennLeistung": {
+        "ns": 1,
+        "i": 244
+    },
+    "Girea-HMI_Verbraucher_[6]_Parameter_abschaltbar": {
+        "ns": 1,
+        "i": 245
+    },
+    "Girea-HMI_Verbraucher_[6]_Parameter_ueberschuss": {
+        "ns": 1,
+        "i": 246
+    },
+    "Girea-HMI_Verbraucher_[6]_Parameter_Priotit\u00e4t": {
+        "ns": 1,
+        "i": 247
+    },
+    "Girea-HMI_Verbraucher_[6]_Parameter_anlauf-zeit in s": {
+        "ns": 1,
+        "i": 248
+    },
+    "Girea-HMI_Verbraucher_[6]_Parameter_MIN-Laufzeit in s": {
+        "ns": 1,
+        "i": 249
+    },
+    "Girea-HMI_Verbraucher_[6]_Parameter_DSW-Laufzeit in s": {
+        "ns": 1,
+        "i": 250
+    },
+    "Girea-HMI_Verbraucher_[6]_Parameter_MAX-Laufzeit in s": {
+        "ns": 1,
+        "i": 251
+    },
+    "Girea-HMI_Verbraucher_[6]_Parameter_MIN-Pausenzeit in s": {
+        "ns": 1,
+        "i": 252
+    },
+    "Girea-HMI_Verbraucher_[6]_Parameter_DSW-Pausenzeit in s": {
+        "ns": 1,
+        "i": 253
+    },
+    "Girea-HMI_Verbraucher_[6]_Parameter_MAX-Pausenzeit in s": {
+        "ns": 1,
+        "i": 254
+    },
+    "Girea-HMI_Verbraucher_[6]_Parameter_tages-Laufzeit in %": {
+        "ns": 1,
+        "i": 255
+    },
+    "Girea-HMI_Verbraucher_[7]_Parameter": {
+        "ns": 1,
+        "i": 256
+    },
+    "Girea-HMI_Verbraucher_[7]_HMI-Best\u00e4tigung": {
+        "ns": 1,
+        "i": 257
+    },
+    "Girea-HMI_Verbraucher_[7]_in Betrieb": {
+        "ns": 1,
+        "i": 258
+    },
+    "Girea-HMI_Verbraucher_[7]_live kW": {
+        "ns": 1,
+        "i": 259
+    },
+    "Girea-HMI_Verbraucher_[7]_verdrahtet": {
+        "ns": 1,
+        "i": 260
+    },
+    "Girea-HMI_Verbraucher_[7]_Parameter_Ge\u00e4ndert durch": {
+        "ns": 1,
+        "i": 261
+    },
+    "Girea-HMI_Verbraucher_[7]_Parameter_Name": {
+        "ns": 1,
+        "i": 262
+    },
+    "Girea-HMI_Verbraucher_[7]_Parameter_Kenzeichung": {
+        "ns": 1,
+        "i": 263
+    },
+    "Girea-HMI_Verbraucher_[7]_Parameter_Durchschnitt kW": {
+        "ns": 1,
+        "i": 264
+    },
+    "Girea-HMI_Verbraucher_[7]_Parameter_NennLeistung": {
+        "ns": 1,
+        "i": 265
+    },
+    "Girea-HMI_Verbraucher_[7]_Parameter_abschaltbar": {
+        "ns": 1,
+        "i": 266
+    },
+    "Girea-HMI_Verbraucher_[7]_Parameter_ueberschuss": {
+        "ns": 1,
+        "i": 267
+    },
+    "Girea-HMI_Verbraucher_[7]_Parameter_Priotit\u00e4t": {
+        "ns": 1,
+        "i": 268
+    },
+    "Girea-HMI_Verbraucher_[7]_Parameter_anlauf-zeit in s": {
+        "ns": 1,
+        "i": 269
+    },
+    "Girea-HMI_Verbraucher_[7]_Parameter_MIN-Laufzeit in s": {
+        "ns": 1,
+        "i": 270
+    },
+    "Girea-HMI_Verbraucher_[7]_Parameter_DSW-Laufzeit in s": {
+        "ns": 1,
+        "i": 271
+    },
+    "Girea-HMI_Verbraucher_[7]_Parameter_MAX-Laufzeit in s": {
+        "ns": 1,
+        "i": 272
+    },
+    "Girea-HMI_Verbraucher_[7]_Parameter_MIN-Pausenzeit in s": {
+        "ns": 1,
+        "i": 273
+    },
+    "Girea-HMI_Verbraucher_[7]_Parameter_DSW-Pausenzeit in s": {
+        "ns": 1,
+        "i": 274
+    },
+    "Girea-HMI_Verbraucher_[7]_Parameter_MAX-Pausenzeit in s": {
+        "ns": 1,
+        "i": 275
+    },
+    "Girea-HMI_Verbraucher_[7]_Parameter_tages-Laufzeit in %": {
+        "ns": 1,
+        "i": 276
+    },
+    "Girea-HMI_Verbraucher_[8]_Parameter": {
+        "ns": 1,
+        "i": 277
+    },
+    "Girea-HMI_Verbraucher_[8]_HMI-Best\u00e4tigung": {
+        "ns": 1,
+        "i": 278
+    },
+    "Girea-HMI_Verbraucher_[8]_in Betrieb": {
+        "ns": 1,
+        "i": 279
+    },
+    "Girea-HMI_Verbraucher_[8]_live kW": {
+        "ns": 1,
+        "i": 280
+    },
+    "Girea-HMI_Verbraucher_[8]_verdrahtet": {
+        "ns": 1,
+        "i": 281
+    },
+    "Girea-HMI_Verbraucher_[8]_Parameter_Ge\u00e4ndert durch": {
+        "ns": 1,
+        "i": 282
+    },
+    "Girea-HMI_Verbraucher_[8]_Parameter_Name": {
+        "ns": 1,
+        "i": 283
+    },
+    "Girea-HMI_Verbraucher_[8]_Parameter_Kenzeichung": {
+        "ns": 1,
+        "i": 284
+    },
+    "Girea-HMI_Verbraucher_[8]_Parameter_Durchschnitt kW": {
+        "ns": 1,
+        "i": 285
+    },
+    "Girea-HMI_Verbraucher_[8]_Parameter_NennLeistung": {
+        "ns": 1,
+        "i": 286
+    },
+    "Girea-HMI_Verbraucher_[8]_Parameter_abschaltbar": {
+        "ns": 1,
+        "i": 287
+    },
+    "Girea-HMI_Verbraucher_[8]_Parameter_ueberschuss": {
+        "ns": 1,
+        "i": 288
+    },
+    "Girea-HMI_Verbraucher_[8]_Parameter_Priotit\u00e4t": {
+        "ns": 1,
+        "i": 289
+    },
+    "Girea-HMI_Verbraucher_[8]_Parameter_anlauf-zeit in s": {
+        "ns": 1,
+        "i": 290
+    },
+    "Girea-HMI_Verbraucher_[8]_Parameter_MIN-Laufzeit in s": {
+        "ns": 1,
+        "i": 291
+    },
+    "Girea-HMI_Verbraucher_[8]_Parameter_DSW-Laufzeit in s": {
+        "ns": 1,
+        "i": 292
+    },
+    "Girea-HMI_Verbraucher_[8]_Parameter_MAX-Laufzeit in s": {
+        "ns": 1,
+        "i": 293
+    },
+    "Girea-HMI_Verbraucher_[8]_Parameter_MIN-Pausenzeit in s": {
+        "ns": 1,
+        "i": 294
+    },
+    "Girea-HMI_Verbraucher_[8]_Parameter_DSW-Pausenzeit in s": {
+        "ns": 1,
+        "i": 295
+    },
+    "Girea-HMI_Verbraucher_[8]_Parameter_MAX-Pausenzeit in s": {
+        "ns": 1,
+        "i": 296
+    },
+    "Girea-HMI_Verbraucher_[8]_Parameter_tages-Laufzeit in %": {
+        "ns": 1,
+        "i": 297
+    },
+    "Girea-HMI_Verbraucher_[9]_Parameter": {
+        "ns": 1,
+        "i": 298
+    },
+    "Girea-HMI_Verbraucher_[9]_HMI-Best\u00e4tigung": {
+        "ns": 1,
+        "i": 299
+    },
+    "Girea-HMI_Verbraucher_[9]_in Betrieb": {
+        "ns": 1,
+        "i": 300
+    },
+    "Girea-HMI_Verbraucher_[9]_live kW": {
+        "ns": 1,
+        "i": 301
+    },
+    "Girea-HMI_Verbraucher_[9]_verdrahtet": {
+        "ns": 1,
+        "i": 302
+    },
+    "Girea-HMI_Verbraucher_[9]_Parameter_Ge\u00e4ndert durch": {
+        "ns": 1,
+        "i": 303
+    },
+    "Girea-HMI_Verbraucher_[9]_Parameter_Name": {
+        "ns": 1,
+        "i": 304
+    },
+    "Girea-HMI_Verbraucher_[9]_Parameter_Kenzeichung": {
+        "ns": 1,
+        "i": 305
+    },
+    "Girea-HMI_Verbraucher_[9]_Parameter_Durchschnitt kW": {
+        "ns": 1,
+        "i": 306
+    },
+    "Girea-HMI_Verbraucher_[9]_Parameter_NennLeistung": {
+        "ns": 1,
+        "i": 307
+    },
+    "Girea-HMI_Verbraucher_[9]_Parameter_abschaltbar": {
+        "ns": 1,
+        "i": 308
+    },
+    "Girea-HMI_Verbraucher_[9]_Parameter_ueberschuss": {
+        "ns": 1,
+        "i": 309
+    },
+    "Girea-HMI_Verbraucher_[9]_Parameter_Priotit\u00e4t": {
+        "ns": 1,
+        "i": 310
+    },
+    "Girea-HMI_Verbraucher_[9]_Parameter_anlauf-zeit in s": {
+        "ns": 1,
+        "i": 311
+    },
+    "Girea-HMI_Verbraucher_[9]_Parameter_MIN-Laufzeit in s": {
+        "ns": 1,
+        "i": 312
+    },
+    "Girea-HMI_Verbraucher_[9]_Parameter_DSW-Laufzeit in s": {
+        "ns": 1,
+        "i": 313
+    },
+    "Girea-HMI_Verbraucher_[9]_Parameter_MAX-Laufzeit in s": {
+        "ns": 1,
+        "i": 314
+    },
+    "Girea-HMI_Verbraucher_[9]_Parameter_MIN-Pausenzeit in s": {
+        "ns": 1,
+        "i": 315
+    },
+    "Girea-HMI_Verbraucher_[9]_Parameter_DSW-Pausenzeit in s": {
+        "ns": 1,
+        "i": 316
+    },
+    "Girea-HMI_Verbraucher_[9]_Parameter_MAX-Pausenzeit in s": {
+        "ns": 1,
+        "i": 317
+    },
+    "Girea-HMI_Verbraucher_[9]_Parameter_tages-Laufzeit in %": {
+        "ns": 1,
+        "i": 318
+    },
+    "Girea-HMI_Verbraucher_[10]_Parameter": {
+        "ns": 1,
+        "i": 319
+    },
+    "Girea-HMI_Verbraucher_[10]_HMI-Best\u00e4tigung": {
+        "ns": 1,
+        "i": 320
+    },
+    "Girea-HMI_Verbraucher_[10]_in Betrieb": {
+        "ns": 1,
+        "i": 321
+    },
+    "Girea-HMI_Verbraucher_[10]_live kW": {
+        "ns": 1,
+        "i": 322
+    },
+    "Girea-HMI_Verbraucher_[10]_verdrahtet": {
+        "ns": 1,
+        "i": 323
+    },
+    "Girea-HMI_Verbraucher_[10]_Parameter_Ge\u00e4ndert durch": {
+        "ns": 1,
+        "i": 324
+    },
+    "Girea-HMI_Verbraucher_[10]_Parameter_Name": {
+        "ns": 1,
+        "i": 325
+    },
+    "Girea-HMI_Verbraucher_[10]_Parameter_Kenzeichung": {
+        "ns": 1,
+        "i": 326
+    },
+    "Girea-HMI_Verbraucher_[10]_Parameter_Durchschnitt kW": {
+        "ns": 1,
+        "i": 327
+    },
+    "Girea-HMI_Verbraucher_[10]_Parameter_NennLeistung": {
+        "ns": 1,
+        "i": 328
+    },
+    "Girea-HMI_Verbraucher_[10]_Parameter_abschaltbar": {
+        "ns": 1,
+        "i": 329
+    },
+    "Girea-HMI_Verbraucher_[10]_Parameter_ueberschuss": {
+        "ns": 1,
+        "i": 330
+    },
+    "Girea-HMI_Verbraucher_[10]_Parameter_Priotit\u00e4t": {
+        "ns": 1,
+        "i": 331
+    },
+    "Girea-HMI_Verbraucher_[10]_Parameter_anlauf-zeit in s": {
+        "ns": 1,
+        "i": 332
+    },
+    "Girea-HMI_Verbraucher_[10]_Parameter_MIN-Laufzeit in s": {
+        "ns": 1,
+        "i": 333
+    },
+    "Girea-HMI_Verbraucher_[10]_Parameter_DSW-Laufzeit in s": {
+        "ns": 1,
+        "i": 334
+    },
+    "Girea-HMI_Verbraucher_[10]_Parameter_MAX-Laufzeit in s": {
+        "ns": 1,
+        "i": 335
+    },
+    "Girea-HMI_Verbraucher_[10]_Parameter_MIN-Pausenzeit in s": {
+        "ns": 1,
+        "i": 336
+    },
+    "Girea-HMI_Verbraucher_[10]_Parameter_DSW-Pausenzeit in s": {
+        "ns": 1,
+        "i": 337
+    },
+    "Girea-HMI_Verbraucher_[10]_Parameter_MAX-Pausenzeit in s": {
+        "ns": 1,
+        "i": 338
+    },
+    "Girea-HMI_Verbraucher_[10]_Parameter_tages-Laufzeit in %": {
+        "ns": 1,
+        "i": 339
+    },
+    "Girea-HMI_Verbraucher_[11]_Parameter": {
+        "ns": 1,
+        "i": 340
+    },
+    "Girea-HMI_Verbraucher_[11]_HMI-Best\u00e4tigung": {
+        "ns": 1,
+        "i": 341
+    },
+    "Girea-HMI_Verbraucher_[11]_in Betrieb": {
+        "ns": 1,
+        "i": 342
+    },
+    "Girea-HMI_Verbraucher_[11]_live kW": {
+        "ns": 1,
+        "i": 343
+    },
+    "Girea-HMI_Verbraucher_[11]_verdrahtet": {
+        "ns": 1,
+        "i": 344
+    },
+    "Girea-HMI_Verbraucher_[11]_Parameter_Ge\u00e4ndert durch": {
+        "ns": 1,
+        "i": 345
+    },
+    "Girea-HMI_Verbraucher_[11]_Parameter_Name": {
+        "ns": 1,
+        "i": 346
+    },
+    "Girea-HMI_Verbraucher_[11]_Parameter_Kenzeichung": {
+        "ns": 1,
+        "i": 347
+    },
+    "Girea-HMI_Verbraucher_[11]_Parameter_Durchschnitt kW": {
+        "ns": 1,
+        "i": 348
+    },
+    "Girea-HMI_Verbraucher_[11]_Parameter_NennLeistung": {
+        "ns": 1,
+        "i": 349
+    },
+    "Girea-HMI_Verbraucher_[11]_Parameter_abschaltbar": {
+        "ns": 1,
+        "i": 350
+    },
+    "Girea-HMI_Verbraucher_[11]_Parameter_ueberschuss": {
+        "ns": 1,
+        "i": 351
+    },
+    "Girea-HMI_Verbraucher_[11]_Parameter_Priotit\u00e4t": {
+        "ns": 1,
+        "i": 352
+    },
+    "Girea-HMI_Verbraucher_[11]_Parameter_anlauf-zeit in s": {
+        "ns": 1,
+        "i": 353
+    },
+    "Girea-HMI_Verbraucher_[11]_Parameter_MIN-Laufzeit in s": {
+        "ns": 1,
+        "i": 354
+    },
+    "Girea-HMI_Verbraucher_[11]_Parameter_DSW-Laufzeit in s": {
+        "ns": 1,
+        "i": 355
+    },
+    "Girea-HMI_Verbraucher_[11]_Parameter_MAX-Laufzeit in s": {
+        "ns": 1,
+        "i": 356
+    },
+    "Girea-HMI_Verbraucher_[11]_Parameter_MIN-Pausenzeit in s": {
+        "ns": 1,
+        "i": 357
+    },
+    "Girea-HMI_Verbraucher_[11]_Parameter_DSW-Pausenzeit in s": {
+        "ns": 1,
+        "i": 358
+    },
+    "Girea-HMI_Verbraucher_[11]_Parameter_MAX-Pausenzeit in s": {
+        "ns": 1,
+        "i": 359
+    },
+    "Girea-HMI_Verbraucher_[11]_Parameter_tages-Laufzeit in %": {
+        "ns": 1,
+        "i": 360
+    },
+    "Girea-HMI_Speicher_gesamt kW": {
+        "ns": 1,
+        "i": 361
+    },
+    "Girea-HMI_Speicher_gesamt kW/h": {
+        "ns": 1,
+        "i": 362
+    },
+    "Girea-HMI_Speicher_min index": {
+        "ns": 1,
+        "i": 363
+    },
+    "Girea-HMI_Speicher_max index": {
+        "ns": 1,
+        "i": 364
+    },
+    "Girea-HMI_Speicher_[0]": {
+        "ns": 1,
+        "i": 365
+    },
+    "Girea-HMI_Speicher_[1]": {
+        "ns": 1,
+        "i": 366
+    },
+    "Girea-HMI_Speicher_[0]_Parameter": {
+        "ns": 1,
+        "i": 367
+    },
+    "Girea-HMI_Speicher_[0]_aus wert in %": {
+        "ns": 1,
+        "i": 368
+    },
+    "Girea-HMI_Speicher_[0]_HMI-Best\u00e4tigung": {
+        "ns": 1,
+        "i": 369
+    },
+    "Girea-HMI_Speicher_[0]_in Betrieb": {
+        "ns": 1,
+        "i": 370
+    },
+    "Girea-HMI_Speicher_[0]_live kW": {
+        "ns": 1,
+        "i": 371
+    },
+    "Girea-HMI_Speicher_[0]_live kW/h": {
+        "ns": 1,
+        "i": 372
+    },
+    "Girea-HMI_Speicher_[0]_verdrahtet": {
+        "ns": 1,
+        "i": 373
+    },
+    "Girea-HMI_Speicher_[0]_Parameter_Ge\u00e4ndert durch": {
+        "ns": 1,
+        "i": 374
+    },
+    "Girea-HMI_Speicher_[0]_Parameter_Name": {
+        "ns": 1,
+        "i": 375
+    },
+    "Girea-HMI_Speicher_[0]_Parameter_Kenzeichung": {
+        "ns": 1,
+        "i": 376
+    },
+    "Girea-HMI_Speicher_[0]_Parameter_max kW/h": {
+        "ns": 1,
+        "i": 377
+    },
+    "Girea-HMI_Speicher_[0]_Parameter_max kW": {
+        "ns": 1,
+        "i": 378
+    },
+    "Girea-HMI_Speicher_[0]_Parameter_max lade leistung kW": {
+        "ns": 1,
+        "i": 379
+    },
+    "Girea-HMI_Speicher_[0]_Parameter_max etlade leistung kW": {
+        "ns": 1,
+        "i": 380
+    },
+    "Girea-HMI_Speicher_[0]_Parameter_DoD": {
+        "ns": 1,
+        "i": 381
+    },
+    "Girea-HMI_Speicher_[0]_Parameter_SOH": {
+        "ns": 1,
+        "i": 382
+    },
+    "Girea-HMI_Speicher_[0]_Parameter_anlauf-zeit in s": {
+        "ns": 1,
+        "i": 383
+    },
+    "Girea-HMI_Speicher_[0]_Parameter_MIN-Laufzeit in s": {
+        "ns": 1,
+        "i": 384
+    },
+    "Girea-HMI_Speicher_[0]_Parameter_DSW-Laufzeit in s": {
+        "ns": 1,
+        "i": 385
+    },
+    "Girea-HMI_Speicher_[0]_Parameter_MAX-Laufzeit in s": {
+        "ns": 1,
+        "i": 386
+    },
+    "Girea-HMI_Speicher_[0]_Parameter_MIN-Pausenzeit in s": {
+        "ns": 1,
+        "i": 387
+    },
+    "Girea-HMI_Speicher_[0]_Parameter_DSW-Pausenzeit in s": {
+        "ns": 1,
+        "i": 388
+    },
+    "Girea-HMI_Speicher_[0]_Parameter_MAX-Pausenzeit in s": {
+        "ns": 1,
+        "i": 389
+    },
+    "Girea-HMI_Speicher_[0]_Parameter_tages-Laufzeit in %": {
+        "ns": 1,
+        "i": 390
+    },
+    "Girea-HMI_Speicher_[1]_Parameter": {
+        "ns": 1,
+        "i": 391
+    },
+    "Girea-HMI_Speicher_[1]_aus wert in %": {
+        "ns": 1,
+        "i": 392
+    },
+    "Girea-HMI_Speicher_[1]_HMI-Best\u00e4tigung": {
+        "ns": 1,
+        "i": 393
+    },
+    "Girea-HMI_Speicher_[1]_in Betrieb": {
+        "ns": 1,
+        "i": 394
+    },
+    "Girea-HMI_Speicher_[1]_live kW": {
+        "ns": 1,
+        "i": 395
+    },
+    "Girea-HMI_Speicher_[1]_live kW/h": {
+        "ns": 1,
+        "i": 396
+    },
+    "Girea-HMI_Speicher_[1]_verdrahtet": {
+        "ns": 1,
+        "i": 397
+    },
+    "Girea-HMI_Speicher_[1]_Parameter_Ge\u00e4ndert durch": {
+        "ns": 1,
+        "i": 398
+    },
+    "Girea-HMI_Speicher_[1]_Parameter_Name": {
+        "ns": 1,
+        "i": 399
+    },
+    "Girea-HMI_Speicher_[1]_Parameter_Kenzeichung": {
+        "ns": 1,
+        "i": 400
+    },
+    "Girea-HMI_Speicher_[1]_Parameter_max kW/h": {
+        "ns": 1,
+        "i": 401
+    },
+    "Girea-HMI_Speicher_[1]_Parameter_max kW": {
+        "ns": 1,
+        "i": 402
+    },
+    "Girea-HMI_Speicher_[1]_Parameter_max lade leistung kW": {
+        "ns": 1,
+        "i": 403
+    },
+    "Girea-HMI_Speicher_[1]_Parameter_max etlade leistung kW": {
+        "ns": 1,
+        "i": 404
+    },
+    "Girea-HMI_Speicher_[1]_Parameter_DoD": {
+        "ns": 1,
+        "i": 405
+    },
+    "Girea-HMI_Speicher_[1]_Parameter_SOH": {
+        "ns": 1,
+        "i": 406
+    },
+    "Girea-HMI_Speicher_[1]_Parameter_anlauf-zeit in s": {
+        "ns": 1,
+        "i": 407
+    },
+    "Girea-HMI_Speicher_[1]_Parameter_MIN-Laufzeit in s": {
+        "ns": 1,
+        "i": 408
+    },
+    "Girea-HMI_Speicher_[1]_Parameter_DSW-Laufzeit in s": {
+        "ns": 1,
+        "i": 409
+    },
+    "Girea-HMI_Speicher_[1]_Parameter_MAX-Laufzeit in s": {
+        "ns": 1,
+        "i": 410
+    },
+    "Girea-HMI_Speicher_[1]_Parameter_MIN-Pausenzeit in s": {
+        "ns": 1,
+        "i": 411
+    },
+    "Girea-HMI_Speicher_[1]_Parameter_DSW-Pausenzeit in s": {
+        "ns": 1,
+        "i": 412
+    },
+    "Girea-HMI_Speicher_[1]_Parameter_MAX-Pausenzeit in s": {
+        "ns": 1,
+        "i": 413
+    },
+    "Girea-HMI_Speicher_[1]_Parameter_tages-Laufzeit in %": {
+        "ns": 1,
+        "i": 414
+    },
+    "Girea-HMI_Netzanbieter_gesamt kW": {
+        "ns": 1,
+        "i": 415
+    },
+    "Girea-HMI_Netzanbieter_min index": {
+        "ns": 1,
+        "i": 416
+    },
+    "Girea-HMI_Netzanbieter_max index": {
+        "ns": 1,
+        "i": 417
+    },
+    "Girea-HMI_Netzanbieter_[0]": {
+        "ns": 1,
+        "i": 418
+    },
+    "Girea-HMI_Netzanbieter_[0]_Parameter": {
+        "ns": 1,
+        "i": 419
+    },
+    "Girea-HMI_Netzanbieter_[0]_HMI-Best\u00e4tigung": {
+        "ns": 1,
+        "i": 420
+    },
+    "Girea-HMI_Netzanbieter_[0]_in Betrieb": {
+        "ns": 1,
+        "i": 421
+    },
+    "Girea-HMI_Netzanbieter_[0]_live kW": {
+        "ns": 1,
+        "i": 422
+    },
+    "Girea-HMI_Netzanbieter_[0]_verdrahtet": {
+        "ns": 1,
+        "i": 423
+    },
+    "Girea-HMI_Netzanbieter_[0]_Parameter_Ge\u00e4ndert durch": {
+        "ns": 1,
+        "i": 424
+    },
+    "Girea-HMI_Netzanbieter_[0]_Parameter_Name": {
+        "ns": 1,
+        "i": 425
+    },
+    "Girea-HMI_Wetter_weather": {
+        "ns": 1,
+        "i": 426
+    },
+    "Girea-HMI_Wetter_main": {
+        "ns": 1,
+        "i": 427
+    },
+    "Girea-HMI_Wetter_wind": {
+        "ns": 1,
+        "i": 428
+    },
+    "Girea-HMI_Wetter_rain": {
+        "ns": 1,
+        "i": 429
+    },
+    "Girea-HMI_Wetter_clouds": {
+        "ns": 1,
+        "i": 430
+    },
+    "Girea-HMI_Wetter_weather_[0]": {
+        "ns": 1,
+        "i": 431
+    },
+    "Girea-HMI_Wetter_weather_[0]_id": {
+        "ns": 1,
+        "i": 432
+    },
+    "Girea-HMI_Wetter_weather_[0]_main": {
+        "ns": 1,
+        "i": 433
+    },
+    "Girea-HMI_Wetter_weather_[0]_description": {
+        "ns": 1,
+        "i": 434
+    },
+    "Girea-HMI_Wetter_weather_[0]_icon": {
+        "ns": 1,
+        "i": 435
+    },
+    "Girea-HMI_Wetter_main_temp": {
+        "ns": 1,
+        "i": 436
+    },
+    "Girea-HMI_Wetter_main_feels_like": {
+        "ns": 1,
+        "i": 437
+    },
+    "Girea-HMI_Wetter_main_temp_min": {
+        "ns": 1,
+        "i": 438
+    },
+    "Girea-HMI_Wetter_main_temp_max": {
+        "ns": 1,
+        "i": 439
+    },
+    "Girea-HMI_Wetter_main_pressure": {
+        "ns": 1,
+        "i": 440
+    },
+    "Girea-HMI_Wetter_main_humidity": {
+        "ns": 1,
+        "i": 441
+    },
+    "Girea-HMI_Wetter_main_sea_level": {
+        "ns": 1,
+        "i": 442
+    },
+    "Girea-HMI_Wetter_main_grnd_level": {
+        "ns": 1,
+        "i": 443
+    },
+    "Girea-HMI_Wetter_wind_speed": {
+        "ns": 1,
+        "i": 444
+    },
+    "Girea-HMI_Wetter_wind_deg": {
+        "ns": 1,
+        "i": 445
+    },
+    "Girea-HMI_Wetter_wind_gust": {
+        "ns": 1,
+        "i": 446
+    },
+    "Girea-HMI_Wetter_rain_1h": {
+        "ns": 1,
+        "i": 447
+    },
+    "Girea-HMI_Wetter_clouds_all": {
+        "ns": 1,
+        "i": 448
+    },
+    "Girea-SPS": {
+        "ns": 1,
+        "i": 449
+    },
+    "Girea-SPS_Erzeuger": {
+        "ns": 1,
+        "i": 450
+    },
+    "Girea-SPS_Verbraucher": {
+        "ns": 1,
+        "i": 451
+    },
+    "Girea-SPS_Speicher": {
+        "ns": 1,
+        "i": 452
+    },
+    "Girea-SPS_Netzanbieter": {
+        "ns": 1,
+        "i": 453
+    },
+    "Girea-SPS_Erzeuger_gesamt kW": {
+        "ns": 1,
+        "i": 454
+    },
+    "Girea-SPS_Erzeuger_min index": {
+        "ns": 1,
+        "i": 455
+    },
+    "Girea-SPS_Erzeuger_max index": {
+        "ns": 1,
+        "i": 456
+    },
+    "Girea-SPS_Erzeuger_[0]": {
+        "ns": 1,
+        "i": 457
+    },
+    "Girea-SPS_Erzeuger_[1]": {
+        "ns": 1,
+        "i": 458
+    },
+    "Girea-SPS_Erzeuger_[2]": {
+        "ns": 1,
+        "i": 459
+    },
+    "Girea-SPS_Erzeuger_[0]_live bit": {
+        "ns": 1,
+        "i": 460
+    },
+    "Girea-SPS_Erzeuger_[0]_verdrahtet": {
+        "ns": 1,
+        "i": 461
+    },
+    "Girea-SPS_Erzeuger_[0]_ist an": {
+        "ns": 1,
+        "i": 462
+    },
+    "Girea-SPS_Erzeuger_[0]_start": {
+        "ns": 1,
+        "i": 463
+    },
+    "Girea-SPS_Erzeuger_[0]_stopp": {
+        "ns": 1,
+        "i": 464
+    },
+    "Girea-SPS_Erzeuger_[0]_kW": {
+        "ns": 1,
+        "i": 465
+    },
+    "Girea-SPS_Erzeuger_[0]_potenziele kW/h": {
+        "ns": 1,
+        "i": 466
+    },
+    "Girea-SPS_Erzeuger_[1]_live bit": {
+        "ns": 1,
+        "i": 467
+    },
+    "Girea-SPS_Erzeuger_[1]_verdrahtet": {
+        "ns": 1,
+        "i": 468
+    },
+    "Girea-SPS_Erzeuger_[1]_ist an": {
+        "ns": 1,
+        "i": 469
+    },
+    "Girea-SPS_Erzeuger_[1]_start": {
+        "ns": 1,
+        "i": 470
+    },
+    "Girea-SPS_Erzeuger_[1]_stopp": {
+        "ns": 1,
+        "i": 471
+    },
+    "Girea-SPS_Erzeuger_[1]_kW": {
+        "ns": 1,
+        "i": 472
+    },
+    "Girea-SPS_Erzeuger_[1]_potenziele kW/h": {
+        "ns": 1,
+        "i": 473
+    },
+    "Girea-SPS_Erzeuger_[2]_live bit": {
+        "ns": 1,
+        "i": 474
+    },
+    "Girea-SPS_Erzeuger_[2]_verdrahtet": {
+        "ns": 1,
+        "i": 475
+    },
+    "Girea-SPS_Erzeuger_[2]_ist an": {
+        "ns": 1,
+        "i": 476
+    },
+    "Girea-SPS_Erzeuger_[2]_start": {
+        "ns": 1,
+        "i": 477
+    },
+    "Girea-SPS_Erzeuger_[2]_stopp": {
+        "ns": 1,
+        "i": 478
+    },
+    "Girea-SPS_Erzeuger_[2]_kW": {
+        "ns": 1,
+        "i": 479
+    },
+    "Girea-SPS_Erzeuger_[2]_potenziele kW/h": {
+        "ns": 1,
+        "i": 480
+    },
+    "Girea-SPS_Verbraucher_gesamt kW": {
+        "ns": 1,
+        "i": 481
+    },
+    "Girea-SPS_Verbraucher_min index": {
+        "ns": 1,
+        "i": 482
+    },
+    "Girea-SPS_Verbraucher_max index": {
+        "ns": 1,
+        "i": 483
+    },
+    "Girea-SPS_Verbraucher_[0]": {
+        "ns": 1,
+        "i": 484
+    },
+    "Girea-SPS_Verbraucher_[1]": {
+        "ns": 1,
+        "i": 485
+    },
+    "Girea-SPS_Verbraucher_[2]": {
+        "ns": 1,
+        "i": 486
+    },
+    "Girea-SPS_Verbraucher_[3]": {
+        "ns": 1,
+        "i": 487
+    },
+    "Girea-SPS_Verbraucher_[4]": {
+        "ns": 1,
+        "i": 488
+    },
+    "Girea-SPS_Verbraucher_[5]": {
+        "ns": 1,
+        "i": 489
+    },
+    "Girea-SPS_Verbraucher_[6]": {
+        "ns": 1,
+        "i": 490
+    },
+    "Girea-SPS_Verbraucher_[7]": {
+        "ns": 1,
+        "i": 491
+    },
+    "Girea-SPS_Verbraucher_[8]": {
+        "ns": 1,
+        "i": 492
+    },
+    "Girea-SPS_Verbraucher_[9]": {
+        "ns": 1,
+        "i": 493
+    },
+    "Girea-SPS_Verbraucher_[10]": {
+        "ns": 1,
+        "i": 494
+    },
+    "Girea-SPS_Verbraucher_[11]": {
+        "ns": 1,
+        "i": 495
+    },
+    "Girea-SPS_Verbraucher_[0]_live bit": {
+        "ns": 1,
+        "i": 496
+    },
+    "Girea-SPS_Verbraucher_[0]_verdrahtet": {
+        "ns": 1,
+        "i": 497
+    },
+    "Girea-SPS_Verbraucher_[0]_ist an": {
+        "ns": 1,
+        "i": 498
+    },
+    "Girea-SPS_Verbraucher_[0]_start": {
+        "ns": 1,
+        "i": 499
+    },
+    "Girea-SPS_Verbraucher_[0]_stopp": {
+        "ns": 1,
+        "i": 500
+    },
+    "Girea-SPS_Verbraucher_[0]_kW": {
+        "ns": 1,
+        "i": 501
+    },
+    "Girea-SPS_Verbraucher_[1]_live bit": {
+        "ns": 1,
+        "i": 502
+    },
+    "Girea-SPS_Verbraucher_[1]_verdrahtet": {
+        "ns": 1,
+        "i": 503
+    },
+    "Girea-SPS_Verbraucher_[1]_ist an": {
+        "ns": 1,
+        "i": 504
+    },
+    "Girea-SPS_Verbraucher_[1]_start": {
+        "ns": 1,
+        "i": 505
+    },
+    "Girea-SPS_Verbraucher_[1]_stopp": {
+        "ns": 1,
+        "i": 506
+    },
+    "Girea-SPS_Verbraucher_[1]_kW": {
+        "ns": 1,
+        "i": 507
+    },
+    "Girea-SPS_Verbraucher_[2]_live bit": {
+        "ns": 1,
+        "i": 508
+    },
+    "Girea-SPS_Verbraucher_[2]_verdrahtet": {
+        "ns": 1,
+        "i": 509
+    },
+    "Girea-SPS_Verbraucher_[2]_ist an": {
+        "ns": 1,
+        "i": 510
+    },
+    "Girea-SPS_Verbraucher_[2]_start": {
+        "ns": 1,
+        "i": 511
+    },
+    "Girea-SPS_Verbraucher_[2]_stopp": {
+        "ns": 1,
+        "i": 512
+    },
+    "Girea-SPS_Verbraucher_[2]_kW": {
+        "ns": 1,
+        "i": 513
+    },
+    "Girea-SPS_Verbraucher_[3]_live bit": {
+        "ns": 1,
+        "i": 514
+    },
+    "Girea-SPS_Verbraucher_[3]_verdrahtet": {
+        "ns": 1,
+        "i": 515
+    },
+    "Girea-SPS_Verbraucher_[3]_ist an": {
+        "ns": 1,
+        "i": 516
+    },
+    "Girea-SPS_Verbraucher_[3]_start": {
+        "ns": 1,
+        "i": 517
+    },
+    "Girea-SPS_Verbraucher_[3]_stopp": {
+        "ns": 1,
+        "i": 518
+    },
+    "Girea-SPS_Verbraucher_[3]_kW": {
+        "ns": 1,
+        "i": 519
+    },
+    "Girea-SPS_Verbraucher_[4]_live bit": {
+        "ns": 1,
+        "i": 520
+    },
+    "Girea-SPS_Verbraucher_[4]_verdrahtet": {
+        "ns": 1,
+        "i": 521
+    },
+    "Girea-SPS_Verbraucher_[4]_ist an": {
+        "ns": 1,
+        "i": 522
+    },
+    "Girea-SPS_Verbraucher_[4]_start": {
+        "ns": 1,
+        "i": 523
+    },
+    "Girea-SPS_Verbraucher_[4]_stopp": {
+        "ns": 1,
+        "i": 524
+    },
+    "Girea-SPS_Verbraucher_[4]_kW": {
+        "ns": 1,
+        "i": 525
+    },
+    "Girea-SPS_Verbraucher_[5]_live bit": {
+        "ns": 1,
+        "i": 526
+    },
+    "Girea-SPS_Verbraucher_[5]_verdrahtet": {
+        "ns": 1,
+        "i": 527
+    },
+    "Girea-SPS_Verbraucher_[5]_ist an": {
+        "ns": 1,
+        "i": 528
+    },
+    "Girea-SPS_Verbraucher_[5]_start": {
+        "ns": 1,
+        "i": 529
+    },
+    "Girea-SPS_Verbraucher_[5]_stopp": {
+        "ns": 1,
+        "i": 530
+    },
+    "Girea-SPS_Verbraucher_[5]_kW": {
+        "ns": 1,
+        "i": 531
+    },
+    "Girea-SPS_Verbraucher_[6]_live bit": {
+        "ns": 1,
+        "i": 532
+    },
+    "Girea-SPS_Verbraucher_[6]_verdrahtet": {
+        "ns": 1,
+        "i": 533
+    },
+    "Girea-SPS_Verbraucher_[6]_ist an": {
+        "ns": 1,
+        "i": 534
+    },
+    "Girea-SPS_Verbraucher_[6]_start": {
+        "ns": 1,
+        "i": 535
+    },
+    "Girea-SPS_Verbraucher_[6]_stopp": {
+        "ns": 1,
+        "i": 536
+    },
+    "Girea-SPS_Verbraucher_[6]_kW": {
+        "ns": 1,
+        "i": 537
+    },
+    "Girea-SPS_Verbraucher_[7]_live bit": {
+        "ns": 1,
+        "i": 538
+    },
+    "Girea-SPS_Verbraucher_[7]_verdrahtet": {
+        "ns": 1,
+        "i": 539
+    },
+    "Girea-SPS_Verbraucher_[7]_ist an": {
+        "ns": 1,
+        "i": 540
+    },
+    "Girea-SPS_Verbraucher_[7]_start": {
+        "ns": 1,
+        "i": 541
+    },
+    "Girea-SPS_Verbraucher_[7]_stopp": {
+        "ns": 1,
+        "i": 542
+    },
+    "Girea-SPS_Verbraucher_[7]_kW": {
+        "ns": 1,
+        "i": 543
+    },
+    "Girea-SPS_Verbraucher_[8]_live bit": {
+        "ns": 1,
+        "i": 544
+    },
+    "Girea-SPS_Verbraucher_[8]_verdrahtet": {
+        "ns": 1,
+        "i": 545
+    },
+    "Girea-SPS_Verbraucher_[8]_ist an": {
+        "ns": 1,
+        "i": 546
+    },
+    "Girea-SPS_Verbraucher_[8]_start": {
+        "ns": 1,
+        "i": 547
+    },
+    "Girea-SPS_Verbraucher_[8]_stopp": {
+        "ns": 1,
+        "i": 548
+    },
+    "Girea-SPS_Verbraucher_[8]_kW": {
+        "ns": 1,
+        "i": 549
+    },
+    "Girea-SPS_Verbraucher_[9]_live bit": {
+        "ns": 1,
+        "i": 550
+    },
+    "Girea-SPS_Verbraucher_[9]_verdrahtet": {
+        "ns": 1,
+        "i": 551
+    },
+    "Girea-SPS_Verbraucher_[9]_ist an": {
+        "ns": 1,
+        "i": 552
+    },
+    "Girea-SPS_Verbraucher_[9]_start": {
+        "ns": 1,
+        "i": 553
+    },
+    "Girea-SPS_Verbraucher_[9]_stopp": {
+        "ns": 1,
+        "i": 554
+    },
+    "Girea-SPS_Verbraucher_[9]_kW": {
+        "ns": 1,
+        "i": 555
+    },
+    "Girea-SPS_Verbraucher_[10]_live bit": {
+        "ns": 1,
+        "i": 556
+    },
+    "Girea-SPS_Verbraucher_[10]_verdrahtet": {
+        "ns": 1,
+        "i": 557
+    },
+    "Girea-SPS_Verbraucher_[10]_ist an": {
+        "ns": 1,
+        "i": 558
+    },
+    "Girea-SPS_Verbraucher_[10]_start": {
+        "ns": 1,
+        "i": 559
+    },
+    "Girea-SPS_Verbraucher_[10]_stopp": {
+        "ns": 1,
+        "i": 560
+    },
+    "Girea-SPS_Verbraucher_[10]_kW": {
+        "ns": 1,
+        "i": 561
+    },
+    "Girea-SPS_Verbraucher_[11]_live bit": {
+        "ns": 1,
+        "i": 562
+    },
+    "Girea-SPS_Verbraucher_[11]_verdrahtet": {
+        "ns": 1,
+        "i": 563
+    },
+    "Girea-SPS_Verbraucher_[11]_ist an": {
+        "ns": 1,
+        "i": 564
+    },
+    "Girea-SPS_Verbraucher_[11]_start": {
+        "ns": 1,
+        "i": 565
+    },
+    "Girea-SPS_Verbraucher_[11]_stopp": {
+        "ns": 1,
+        "i": 566
+    },
+    "Girea-SPS_Verbraucher_[11]_kW": {
+        "ns": 1,
+        "i": 567
+    },
+    "Girea-SPS_Speicher_gesamt kW": {
+        "ns": 1,
+        "i": 568
+    },
+    "Girea-SPS_Speicher_gesamt kW/h": {
+        "ns": 1,
+        "i": 569
+    },
+    "Girea-SPS_Speicher_min index": {
+        "ns": 1,
+        "i": 570
+    },
+    "Girea-SPS_Speicher_max index": {
+        "ns": 1,
+        "i": 571
+    },
+    "Girea-SPS_Speicher_[0]": {
+        "ns": 1,
+        "i": 572
+    },
+    "Girea-SPS_Speicher_[1]": {
+        "ns": 1,
+        "i": 573
+    },
+    "Girea-SPS_Speicher_[0]_live bit": {
+        "ns": 1,
+        "i": 574
+    },
+    "Girea-SPS_Speicher_[0]_verdrahtet": {
+        "ns": 1,
+        "i": 575
+    },
+    "Girea-SPS_Speicher_[0]_ist an": {
+        "ns": 1,
+        "i": 576
+    },
+    "Girea-SPS_Speicher_[0]_start": {
+        "ns": 1,
+        "i": 577
+    },
+    "Girea-SPS_Speicher_[0]_stopp": {
+        "ns": 1,
+        "i": 578
+    },
+    "Girea-SPS_Speicher_[0]_kW": {
+        "ns": 1,
+        "i": 579
+    },
+    "Girea-SPS_Speicher_[0]_kW/h": {
+        "ns": 1,
+        "i": 580
+    },
+    "Girea-SPS_Speicher_[0]_Level in %": {
+        "ns": 1,
+        "i": 581
+    },
+    "Girea-SPS_Speicher_[1]_live bit": {
+        "ns": 1,
+        "i": 582
+    },
+    "Girea-SPS_Speicher_[1]_verdrahtet": {
+        "ns": 1,
+        "i": 583
+    },
+    "Girea-SPS_Speicher_[1]_ist an": {
+        "ns": 1,
+        "i": 584
+    },
+    "Girea-SPS_Speicher_[1]_start": {
+        "ns": 1,
+        "i": 585
+    },
+    "Girea-SPS_Speicher_[1]_stopp": {
+        "ns": 1,
+        "i": 586
+    },
+    "Girea-SPS_Speicher_[1]_kW": {
+        "ns": 1,
+        "i": 587
+    },
+    "Girea-SPS_Speicher_[1]_kW/h": {
+        "ns": 1,
+        "i": 588
+    },
+    "Girea-SPS_Speicher_[1]_Level in %": {
+        "ns": 1,
+        "i": 589
+    },
+    "Girea-SPS_Netzanbieter_gesamt kW": {
+        "ns": 1,
+        "i": 590
+    },
+    "Girea-SPS_Netzanbieter_min index": {
+        "ns": 1,
+        "i": 591
+    },
+    "Girea-SPS_Netzanbieter_max index": {
+        "ns": 1,
+        "i": 592
+    },
+    "Girea-SPS_Netzanbieter_[0]": {
+        "ns": 1,
+        "i": 593
+    },
+    "Girea-SPS_Netzanbieter_[0]_live bit": {
+        "ns": 1,
+        "i": 594
+    },
+    "Girea-SPS_Netzanbieter_[0]_ist an": {
+        "ns": 1,
+        "i": 595
+    },
+    "Girea-SPS_Netzanbieter_[0]_kW": {
+        "ns": 1,
+        "i": 596
+    },
+    "Girea-Module": {
+        "ns": 1,
+        "i": 597
+    },
+    "Girea-Module_EMS": {
+        "ns": 1,
+        "i": 598
+    },
+    "Girea-Module_Wetter": {
+        "ns": 1,
+        "i": 599
+    },
+    "Girea-Module_DB": {
+        "ns": 1,
+        "i": 600
+    },
+    "Girea-Module_SIM": {
+        "ns": 1,
+        "i": 601
+    },
+    "Girea-Module_EMS_live bit": {
+        "ns": 1,
+        "i": 602
+    },
+    "Girea-Module_EMS_zyklus": {
+        "ns": 1,
+        "i": 603
+    },
+    "Girea-Module_Wetter_live bit": {
+        "ns": 1,
+        "i": 604
+    },
+    "Girea-Module_Wetter_zyklus": {
+        "ns": 1,
+        "i": 605
+    },
+    "Girea-Module_Wetter_unwetter": {
+        "ns": 1,
+        "i": 606
+    },
+    "Girea-Module_DB_live bit": {
+        "ns": 1,
+        "i": 607
+    },
+    "Girea-Module_DB_zyklus": {
+        "ns": 1,
+        "i": 608
+    },
+    "Girea-Module_SIM_live bit": {
+        "ns": 1,
+        "i": 609
+    },
+    "Girea-Module_SIM_zyklus": {
+        "ns": 1,
+        "i": 610
+    },
+    "Girea-HMI_PV-vorkas": {
+        "ns": 1,
+        "i": 611
+    },
+    "Girea-HMI_EMS_standort": {
+        "ns": 1,
+        "i": 612
+    },
+    "Girea-HMI_EMS_Lizens_api-Key-hand-eingabe": {
+        "ns": 1,
+        "i": 613
+    },
+    "Girea-HMI_EMS_standort_longitude": {
+        "ns": 1,
+        "i": 614
+    },
+    "Girea-HMI_EMS_standort_latitude": {
+        "ns": 1,
+        "i": 615
+    },
+    "Girea-HMI_Speicher_gesamt %": {
+        "ns": 1,
+        "i": 616
+    },
+    "Girea-HMI_Speicher_restlauf-zeit in s": {
+        "ns": 1,
+        "i": 617
+    },
+    "Girea-HMI_Speicher_[0]_MIN-Laufzeit in s": {
+        "ns": 1,
+        "i": 618
+    },
+    "Girea-HMI_Speicher_[0]_DSW-Laufzeit in s": {
+        "ns": 1,
+        "i": 619
+    },
+    "Girea-HMI_Speicher_[0]_MAX-Laufzeit in s": {
+        "ns": 1,
+        "i": 620
+    },
+    "Girea-HMI_Speicher_[0]_MIN-Pausenzeit in s": {
+        "ns": 1,
+        "i": 621
+    },
+    "Girea-HMI_Speicher_[0]_DSW-Pausenzeit in s": {
+        "ns": 1,
+        "i": 622
+    },
+    "Girea-HMI_Speicher_[0]_MAX-Pausenzeit in s": {
+        "ns": 1,
+        "i": 623
+    },
+    "Girea-HMI_Speicher_[0]_tages-Laufzeit in %": {
+        "ns": 1,
+        "i": 624
+    },
+    "Girea-HMI_Speicher_[0]_Parameter_max lade kW": {
+        "ns": 1,
+        "i": 625
+    },
+    "Girea-HMI_Speicher_[0]_Parameter_max etlade kW": {
+        "ns": 1,
+        "i": 626
+    },
+    "Girea-HMI_Speicher_[0]_Parameter_c-rate": {
+        "ns": 1,
+        "i": 627
+    },
+    "Girea-HMI_Speicher_[0]_Parameter_SOC": {
+        "ns": 1,
+        "i": 628
+    },
+    "Girea-HMI_Speicher_[0]_Parameter_Sicherheitspuffer": {
+        "ns": 1,
+        "i": 629
+    },
+    "Girea-HMI_Speicher_[1]_MIN-Laufzeit in s": {
+        "ns": 1,
+        "i": 630
+    },
+    "Girea-HMI_Speicher_[1]_DSW-Laufzeit in s": {
+        "ns": 1,
+        "i": 631
+    },
+    "Girea-HMI_Speicher_[1]_MAX-Laufzeit in s": {
+        "ns": 1,
+        "i": 632
+    },
+    "Girea-HMI_Speicher_[1]_MIN-Pausenzeit in s": {
+        "ns": 1,
+        "i": 633
+    },
+    "Girea-HMI_Speicher_[1]_DSW-Pausenzeit in s": {
+        "ns": 1,
+        "i": 634
+    },
+    "Girea-HMI_Speicher_[1]_MAX-Pausenzeit in s": {
+        "ns": 1,
+        "i": 635
+    },
+    "Girea-HMI_Speicher_[1]_tages-Laufzeit in %": {
+        "ns": 1,
+        "i": 636
+    },
+    "Girea-HMI_Speicher_[1]_Parameter_max lade kW": {
+        "ns": 1,
+        "i": 637
+    },
+    "Girea-HMI_Speicher_[1]_Parameter_max etlade kW": {
+        "ns": 1,
+        "i": 638
+    },
+    "Girea-HMI_Speicher_[1]_Parameter_c-rate": {
+        "ns": 1,
+        "i": 639
+    },
+    "Girea-HMI_Speicher_[1]_Parameter_SOC": {
+        "ns": 1,
+        "i": 640
+    },
+    "Girea-HMI_Speicher_[1]_Parameter_Sicherheitspuffer": {
+        "ns": 1,
+        "i": 641
+    },
+    "Girea-HMI_Wetter_unwetter": {
+        "ns": 1,
+        "i": 642
+    },
+    "Girea-HMI_Wetter_weather_[0]_description-DE": {
+        "ns": 1,
+        "i": 643
+    },
+    "Girea-HMI_PV-vorkas_API-Key": {
+        "ns": 1,
+        "i": 644
+    },
+    "Girea-HMI_PV-vorkas_live soll kW": {
+        "ns": 1,
+        "i": 645
+    },
+    "Girea-HMI_Erzeuger_[0]_Parameter_Gasmange": {
+        "ns": 1,
+        "i": 646
+    },
+    "Girea-HMI_Erzeuger_[0]_Parameter_w\u00e4rmegef\u00fchrt": {
+        "ns": 1,
+        "i": 647
+    },
+    "Girea-HMI_Erzeuger_[0]_Parameter_elektrischer wirkungsgrad": {
+        "ns": 1,
+        "i": 648
+    },
+    "Girea-HMI_Erzeuger_[0]_Parameter_heitz wirkungsgrad": {
+        "ns": 1,
+        "i": 649
+    },
+    "Girea-HMI_Erzeuger_[0]_Parameter_Energieleistung kWh/mm3": {
+        "ns": 1,
+        "i": 650
+    },
+    "Girea-HMI_Erzeuger_[0]_Parameter_Heizwert kWh/m3": {
+        "ns": 1,
+        "i": 651
+    },
+    "Girea-HMI_Erzeuger_[0]_Parameter_dod Wert Gasspeicher": {
+        "ns": 1,
+        "i": 652
+    },
+    "Girea-HMI_Erzeuger_[0]_Parameter_Gasmenge m\u00b3": {
+        "ns": 1,
+        "i": 653
+    },
+    "Girea-HMI_Erzeuger_[0]_Parameter_ausrichtung": {
+        "ns": 1,
+        "i": 654
+    },
+    "Girea-HMI_Erzeuger_[0]_Parameter_winkel": {
+        "ns": 1,
+        "i": 655
+    },
+    "Girea-HMI_Erzeuger_[0]_Parameter_dapfung morgen": {
+        "ns": 1,
+        "i": 656
+    },
+    "Girea-HMI_Erzeuger_[0]_Parameter_dapfung abend": {
+        "ns": 1,
+        "i": 657
+    },
+    "Girea-HMI_Erzeuger_[1]_Parameter_Gasmange": {
+        "ns": 1,
+        "i": 658
+    },
+    "Girea-HMI_Erzeuger_[1]_Parameter_w\u00e4rmegef\u00fchrt": {
+        "ns": 1,
+        "i": 659
+    },
+    "Girea-HMI_Erzeuger_[1]_Parameter_elektrischer wirkungsgrad": {
+        "ns": 1,
+        "i": 660
+    },
+    "Girea-HMI_Erzeuger_[1]_Parameter_heitz wirkungsgrad": {
+        "ns": 1,
+        "i": 661
+    },
+    "Girea-HMI_Erzeuger_[1]_Parameter_Energieleistung kWh/mm3": {
+        "ns": 1,
+        "i": 662
+    },
+    "Girea-HMI_Erzeuger_[1]_Parameter_Heizwert kWh/m3": {
+        "ns": 1,
+        "i": 663
+    },
+    "Girea-HMI_Erzeuger_[1]_Parameter_dod Wert Gasspeicher": {
+        "ns": 1,
+        "i": 664
+    },
+    "Girea-HMI_Erzeuger_[1]_Parameter_Gasmenge m\u00b3": {
+        "ns": 1,
+        "i": 665
+    },
+    "Girea-HMI_Erzeuger_[1]_Parameter_ausrichtung": {
+        "ns": 1,
+        "i": 666
+    },
+    "Girea-HMI_Erzeuger_[1]_Parameter_winkel": {
+        "ns": 1,
+        "i": 667
+    },
+    "Girea-HMI_Erzeuger_[1]_Parameter_dapfung morgen": {
+        "ns": 1,
+        "i": 668
+    },
+    "Girea-HMI_Erzeuger_[1]_Parameter_dapfung abend": {
+        "ns": 1,
+        "i": 669
+    },
+    "Girea-HMI_Erzeuger_[2]_Parameter_Gasmange": {
+        "ns": 1,
+        "i": 670
+    },
+    "Girea-HMI_Erzeuger_[2]_Parameter_w\u00e4rmegef\u00fchrt": {
+        "ns": 1,
+        "i": 671
+    },
+    "Girea-HMI_Erzeuger_[2]_Parameter_elektrischer wirkungsgrad": {
+        "ns": 1,
+        "i": 672
+    },
+    "Girea-HMI_Erzeuger_[2]_Parameter_heitz wirkungsgrad": {
+        "ns": 1,
+        "i": 673
+    },
+    "Girea-HMI_Erzeuger_[2]_Parameter_Energieleistung kWh/mm3": {
+        "ns": 1,
+        "i": 674
+    },
+    "Girea-HMI_Erzeuger_[2]_Parameter_Heizwert kWh/m3": {
+        "ns": 1,
+        "i": 675
+    },
+    "Girea-HMI_Erzeuger_[2]_Parameter_dod Wert Gasspeicher": {
+        "ns": 1,
+        "i": 676
+    },
+    "Girea-HMI_Erzeuger_[2]_Parameter_Gasmenge m\u00b3": {
+        "ns": 1,
+        "i": 677
+    },
+    "Girea-HMI_Erzeuger_[2]_Parameter_ausrichtung": {
+        "ns": 1,
+        "i": 678
+    },
+    "Girea-HMI_Erzeuger_[2]_Parameter_winkel": {
+        "ns": 1,
+        "i": 679
+    },
+    "Girea-HMI_Erzeuger_[2]_Parameter_dapfung morgen": {
+        "ns": 1,
+        "i": 680
+    },
+    "Girea-HMI_Erzeuger_[2]_Parameter_dapfung abend": {
+        "ns": 1,
+        "i": 681
+    },
+    "Girea-HMI_Speicher_restlauf-zeit in h": {
+        "ns": 1,
+        "i": 682
+    },
+    "Girea-HMI_Erzeuger_gesamt kW in einer stunde": {
+        "ns": 1,
+        "i": 683
+    },
+    "Girea-HMI_Erzeuger_[0]_kW in einer stunde": {
+        "ns": 1,
+        "i": 684
+    },
+    "Girea-HMI_Erzeuger_[1]_kW in einer stunde": {
+        "ns": 1,
+        "i": 685
+    },
+    "Girea-HMI_Erzeuger_[2]_kW in einer stunde": {
+        "ns": 1,
+        "i": 686
+    },
+    "Girea-HMI_Verbraucher_gesamt kW in einer stunde": {
+        "ns": 1,
+        "i": 687
+    },
+    "Girea-HMI_Verbraucher_[0]_kW in einer stunde": {
+        "ns": 1,
+        "i": 688
+    },
+    "Girea-HMI_Verbraucher_[1]_kW in einer stunde": {
+        "ns": 1,
+        "i": 689
+    },
+    "Girea-HMI_Verbraucher_[2]_kW in einer stunde": {
+        "ns": 1,
+        "i": 690
+    },
+    "Girea-HMI_Verbraucher_[3]_kW in einer stunde": {
+        "ns": 1,
+        "i": 691
+    },
+    "Girea-HMI_Verbraucher_[4]_kW in einer stunde": {
+        "ns": 1,
+        "i": 692
+    },
+    "Girea-HMI_Verbraucher_[5]_kW in einer stunde": {
+        "ns": 1,
+        "i": 693
+    },
+    "Girea-HMI_Verbraucher_[6]_kW in einer stunde": {
+        "ns": 1,
+        "i": 694
+    },
+    "Girea-HMI_Verbraucher_[7]_kW in einer stunde": {
+        "ns": 1,
+        "i": 695
+    },
+    "Girea-HMI_Verbraucher_[8]_kW in einer stunde": {
+        "ns": 1,
+        "i": 696
+    },
+    "Girea-HMI_Verbraucher_[9]_kW in einer stunde": {
+        "ns": 1,
+        "i": 697
+    },
+    "Girea-HMI_Verbraucher_[10]_kW in einer stunde": {
+        "ns": 1,
+        "i": 698
+    },
+    "Girea-HMI_Verbraucher_[11]_kW in einer stunde": {
+        "ns": 1,
+        "i": 699
+    },
+    "Girea-HMI_Speicher_gesamt kW in einer stunde": {
+        "ns": 1,
+        "i": 700
+    },
+    "Girea-HMI_Speicher_gesamt % in einer stunde": {
+        "ns": 1,
+        "i": 701
+    },
+    "Girea-HMI_Speicher_[0]_kW in einer stunde": {
+        "ns": 1,
+        "i": 702
+    },
+    "Girea-HMI_Speicher_[0]_% in einer stunde": {
+        "ns": 1,
+        "i": 703
+    },
+    "Girea-HMI_Speicher_[1]_kW in einer stunde": {
+        "ns": 1,
+        "i": 704
+    },
+    "Girea-HMI_Speicher_[1]_% in einer stunde": {
+        "ns": 1,
+        "i": 705
+    },
+    "Girea-HMI_Netzanbieter_gesamt kW in einer stunde": {
+        "ns": 1,
+        "i": 706
+    },
+    "Girea-HMI_Netzanbieter_[0]_kW in einer stunde": {
+        "ns": 1,
+        "i": 707
+    },
+    "Girea-HMI_EMS_vorhersage": {
+        "ns": 1,
+        "i": 708
+    },
+    "Girea-HMI_EMS_vorhersage_vorhersage zeitkunkt": {
+        "ns": 1,
+        "i": 709
+    },
+    "Girea-HMI_Wetter_API-Key": {
+        "ns": 1,
+        "i": 710
+    },
+    "Girea-HMI_Erzeuger_[0]_SIMstartstopp": {
+        "ns": 1,
+        "i": 711
+    },
+    "Girea-HMI_Erzeuger_[1]_SIMstartstopp": {
+        "ns": 1,
+        "i": 712
+    },
+    "Girea-HMI_Erzeuger_[2]_SIMstartstopp": {
+        "ns": 1,
+        "i": 713
+    },
+    "Girea-HMI_Verbraucher_[0]_SIMstartstopp": {
+        "ns": 1,
+        "i": 714
+    },
+    "Girea-HMI_Verbraucher_[1]_SIMstartstopp": {
+        "ns": 1,
+        "i": 715
+    },
+    "Girea-HMI_Verbraucher_[2]_SIMstartstopp": {
+        "ns": 1,
+        "i": 716
+    },
+    "Girea-HMI_Verbraucher_[3]_SIMstartstopp": {
+        "ns": 1,
+        "i": 717
+    },
+    "Girea-HMI_Verbraucher_[4]_SIMstartstopp": {
+        "ns": 1,
+        "i": 718
+    },
+    "Girea-HMI_Verbraucher_[5]_SIMstartstopp": {
+        "ns": 1,
+        "i": 719
+    },
+    "Girea-HMI_Verbraucher_[6]_SIMstartstopp": {
+        "ns": 1,
+        "i": 720
+    },
+    "Girea-HMI_Verbraucher_[7]_SIMstartstopp": {
+        "ns": 1,
+        "i": 721
+    },
+    "Girea-HMI_Verbraucher_[8]_SIMstartstopp": {
+        "ns": 1,
+        "i": 722
+    },
+    "Girea-HMI_Verbraucher_[9]_SIMstartstopp": {
+        "ns": 1,
+        "i": 723
+    },
+    "Girea-HMI_Verbraucher_[10]_SIMstartstopp": {
+        "ns": 1,
+        "i": 724
+    },
+    "Girea-HMI_Verbraucher_[11]_SIMstartstopp": {
+        "ns": 1,
+        "i": 725
+    },
+    "Girea-HMI_Speicher_[0]_SIMstartstopp": {
+        "ns": 1,
+        "i": 726
+    },
+    "Girea-HMI_Speicher_[1]_SIMstartstopp": {
+        "ns": 1,
+        "i": 727
+    },
+    "Girea-HMI_Netzanbieter_[0]_SIMstartstopp": {
+        "ns": 1,
+        "i": 728
+    },
+    "Girea-SPS_Erzeuger_[0]_simuliert": {
+        "ns": 1,
+        "i": 729
+    },
+    "Girea-SPS_Erzeuger_[1]_simuliert": {
+        "ns": 1,
+        "i": 730
+    },
+    "Girea-SPS_Erzeuger_[2]_simuliert": {
+        "ns": 1,
+        "i": 731
+    },
+    "Girea-SPS_Verbraucher_[0]_simuliert": {
+        "ns": 1,
+        "i": 732
+    },
+    "Girea-SPS_Verbraucher_[1]_simuliert": {
+        "ns": 1,
+        "i": 733
+    },
+    "Girea-SPS_Verbraucher_[2]_simuliert": {
+        "ns": 1,
+        "i": 734
+    },
+    "Girea-SPS_Verbraucher_[3]_simuliert": {
+        "ns": 1,
+        "i": 735
+    },
+    "Girea-SPS_Verbraucher_[4]_simuliert": {
+        "ns": 1,
+        "i": 736
+    },
+    "Girea-SPS_Verbraucher_[5]_simuliert": {
+        "ns": 1,
+        "i": 737
+    },
+    "Girea-SPS_Verbraucher_[6]_simuliert": {
+        "ns": 1,
+        "i": 738
+    },
+    "Girea-SPS_Verbraucher_[7]_simuliert": {
+        "ns": 1,
+        "i": 739
+    },
+    "Girea-SPS_Verbraucher_[8]_simuliert": {
+        "ns": 1,
+        "i": 740
+    },
+    "Girea-SPS_Verbraucher_[9]_simuliert": {
+        "ns": 1,
+        "i": 741
+    },
+    "Girea-SPS_Verbraucher_[10]_simuliert": {
+        "ns": 1,
+        "i": 742
+    },
+    "Girea-SPS_Verbraucher_[11]_simuliert": {
+        "ns": 1,
+        "i": 743
+    },
+    "Girea-SPS_Speicher_[0]_simuliert": {
+        "ns": 1,
+        "i": 744
+    },
+    "Girea-SPS_Speicher_[1]_simuliert": {
+        "ns": 1,
+        "i": 745
+    },
+    "Girea-SPS_Netzanbieter_[0]_simuliert": {
+        "ns": 1,
+        "i": 746
+    },
+    "Girea-SPS_Netzanbieter_[0]_verdrahtet": {
+        "ns": 1,
+        "i": 747
+    },
+    "Girea-SPS_Erzeuger_[0]_soll an": {
+        "ns": 1,
+        "i": 748
+    },
+    "Girea-SPS_Erzeuger_[1]_soll an": {
+        "ns": 1,
+        "i": 749
+    },
+    "Girea-SPS_Erzeuger_[2]_soll an": {
+        "ns": 1,
+        "i": 750
+    },
+    "Girea-SPS_Verbraucher_[0]_soll an": {
+        "ns": 1,
+        "i": 751
+    },
+    "Girea-SPS_Verbraucher_[1]_soll an": {
+        "ns": 1,
+        "i": 752
+    },
+    "Girea-SPS_Verbraucher_[2]_soll an": {
+        "ns": 1,
+        "i": 753
+    },
+    "Girea-SPS_Verbraucher_[3]_soll an": {
+        "ns": 1,
+        "i": 754
+    },
+    "Girea-SPS_Verbraucher_[4]_soll an": {
+        "ns": 1,
+        "i": 755
+    },
+    "Girea-SPS_Verbraucher_[5]_soll an": {
+        "ns": 1,
+        "i": 756
+    },
+    "Girea-SPS_Verbraucher_[6]_soll an": {
+        "ns": 1,
+        "i": 757
+    },
+    "Girea-SPS_Verbraucher_[7]_soll an": {
+        "ns": 1,
+        "i": 758
+    },
+    "Girea-SPS_Verbraucher_[8]_soll an": {
+        "ns": 1,
+        "i": 759
+    },
+    "Girea-SPS_Verbraucher_[9]_soll an": {
+        "ns": 1,
+        "i": 760
+    },
+    "Girea-SPS_Verbraucher_[10]_soll an": {
+        "ns": 1,
+        "i": 761
+    },
+    "Girea-SPS_Verbraucher_[11]_soll an": {
+        "ns": 1,
+        "i": 762
+    },
+    "Girea-SPS_Speicher_[0]_soll an": {
+        "ns": 1,
+        "i": 763
+    },
+    "Girea-SPS_Speicher_[1]_soll an": {
+        "ns": 1,
+        "i": 764
+    },
+    "Girea-SPS_Netzanbieter_[0]_soll an": {
+        "ns": 1,
+        "i": 765
+    },
+    "Girea-HMI_Erzeuger_[0]_Parameter_Kennzeichnung": {
+        "ns": 1,
+        "i": 766
+    },
+    "Girea-HMI_Erzeuger_[1]_Parameter_Kennzeichnung": {
+        "ns": 1,
+        "i": 767
+    },
+    "Girea-HMI_Erzeuger_[2]_Parameter_Kennzeichnung": {
+        "ns": 1,
+        "i": 768
+    },
+    "Girea-HMI_Verbraucher_[0]_Parameter_Kennzeichnung": {
+        "ns": 1,
+        "i": 769
+    },
+    "Girea-HMI_Verbraucher_[1]_Parameter_Kennzeichnung": {
+        "ns": 1,
+        "i": 770
+    },
+    "Girea-HMI_Verbraucher_[2]_Parameter_Kennzeichnung": {
+        "ns": 1,
+        "i": 771
+    },
+    "Girea-HMI_Verbraucher_[3]_Parameter_Kennzeichnung": {
+        "ns": 1,
+        "i": 772
+    },
+    "Girea-HMI_Verbraucher_[4]_Parameter_Kennzeichnung": {
+        "ns": 1,
+        "i": 773
+    },
+    "Girea-HMI_Verbraucher_[5]_Parameter_Kennzeichnung": {
+        "ns": 1,
+        "i": 774
+    },
+    "Girea-HMI_Verbraucher_[6]_Parameter_Kennzeichnung": {
+        "ns": 1,
+        "i": 775
+    },
+    "Girea-HMI_Verbraucher_[7]_Parameter_Kennzeichnung": {
+        "ns": 1,
+        "i": 776
+    },
+    "Girea-HMI_Verbraucher_[8]_Parameter_Kennzeichnung": {
+        "ns": 1,
+        "i": 777
+    },
+    "Girea-HMI_Verbraucher_[9]_Parameter_Kennzeichnung": {
+        "ns": 1,
+        "i": 778
+    },
+    "Girea-HMI_Verbraucher_[10]_Parameter_Kennzeichnung": {
+        "ns": 1,
+        "i": 779
+    },
+    "Girea-HMI_Verbraucher_[11]_Parameter_Kennzeichnung": {
+        "ns": 1,
+        "i": 780
+    },
+    "Girea-HMI_Speicher_[0]_Parameter_Kennzeichnung": {
+        "ns": 1,
+        "i": 781
+    },
+    "Girea-HMI_Speicher_[1]_Parameter_Kennzeichnung": {
+        "ns": 1,
+        "i": 782
+    },
+    "Girea-HMI_Netzanbieter_[0]_Parameter_Kennzeichnung": {
+        "ns": 1,
+        "i": 783
+    },
+    "Girea-HMI_Erzeuger_[0]_Parameter_DSW kW": {
+        "ns": 1,
+        "i": 784
+    },
+    "Girea-HMI_Erzeuger_[1]_Parameter_DSW kW": {
+        "ns": 1,
+        "i": 785
+    },
+    "Girea-HMI_Erzeuger_[2]_Parameter_DSW kW": {
+        "ns": 1,
+        "i": 786
+    },
+    "Girea-HMI_Verbraucher_[0]_Parameter_DSW kW": {
+        "ns": 1,
+        "i": 787
+    },
+    "Girea-HMI_Verbraucher_[1]_Parameter_DSW kW": {
+        "ns": 1,
+        "i": 788
+    },
+    "Girea-HMI_Verbraucher_[2]_Parameter_DSW kW": {
+        "ns": 1,
+        "i": 789
+    },
+    "Girea-HMI_Verbraucher_[3]_Parameter_DSW kW": {
+        "ns": 1,
+        "i": 790
+    },
+    "Girea-HMI_Verbraucher_[4]_Parameter_DSW kW": {
+        "ns": 1,
+        "i": 791
+    },
+    "Girea-HMI_Verbraucher_[5]_Parameter_DSW kW": {
+        "ns": 1,
+        "i": 792
+    },
+    "Girea-HMI_Verbraucher_[6]_Parameter_DSW kW": {
+        "ns": 1,
+        "i": 793
+    },
+    "Girea-HMI_Verbraucher_[7]_Parameter_DSW kW": {
+        "ns": 1,
+        "i": 794
+    },
+    "Girea-HMI_Verbraucher_[8]_Parameter_DSW kW": {
+        "ns": 1,
+        "i": 795
+    },
+    "Girea-HMI_Verbraucher_[9]_Parameter_DSW kW": {
+        "ns": 1,
+        "i": 796
+    },
+    "Girea-HMI_Verbraucher_[10]_Parameter_DSW kW": {
+        "ns": 1,
+        "i": 797
+    },
+    "Girea-HMI_Verbraucher_[11]_Parameter_DSW kW": {
+        "ns": 1,
+        "i": 798
+    },
+    "Girea-HMI_Parameter": {
+        "ns": 1,
+        "i": 799
+    },
+    "Girea-HMI_Parameter_ID": {
+        "ns": 1,
+        "i": 800
+    },
+    "Girea-HMI_Parameter_Ge\u00e4ndert durch": {
+        "ns": 1,
+        "i": 801
+    },
+    "Girea-HMI_Parameter_1 Bezeichnung": {
+        "ns": 1,
+        "i": 802
+    },
+    "Girea-HMI_Parameter_1 Wert": {
+        "ns": 1,
+        "i": 803
+    },
+    "Girea-HMI_Parameter_1 Falsche eingabe": {
+        "ns": 1,
+        "i": 804
+    },
+    "Girea-HMI_Parameter_2 Bezeichnung": {
+        "ns": 1,
+        "i": 805
+    },
+    "Girea-HMI_Parameter_2 Wert": {
+        "ns": 1,
+        "i": 806
+    },
+    "Girea-HMI_Parameter_2 Falsche eingabe": {
+        "ns": 1,
+        "i": 807
+    },
+    "Girea-HMI_Parameter_3 Bezeichnung": {
+        "ns": 1,
+        "i": 808
+    },
+    "Girea-HMI_Parameter_3 Wert": {
+        "ns": 1,
+        "i": 809
+    },
+    "Girea-HMI_Parameter_3 Falsche eingabe": {
+        "ns": 1,
+        "i": 810
+    },
+    "Girea-HMI_Parameter_4 Bezeichnung": {
+        "ns": 1,
+        "i": 811
+    },
+    "Girea-HMI_Parameter_4 Wert": {
+        "ns": 1,
+        "i": 812
+    },
+    "Girea-HMI_Parameter_4 Falsche eingabe": {
+        "ns": 1,
+        "i": 813
+    },
+    "Girea-HMI_Parameter_5 Bezeichnung": {
+        "ns": 1,
+        "i": 814
+    },
+    "Girea-HMI_Parameter_5 Wert": {
+        "ns": 1,
+        "i": 815
+    },
+    "Girea-HMI_Parameter_5 Falsche eingabe": {
+        "ns": 1,
+        "i": 816
+    },
+    "Girea-HMI_Parameter_6 Bezeichnung": {
+        "ns": 1,
+        "i": 817
+    },
+    "Girea-HMI_Parameter_6 Wert": {
+        "ns": 1,
+        "i": 818
+    },
+    "Girea-HMI_Parameter_6 Falsche eingabe": {
+        "ns": 1,
+        "i": 819
+    },
+    "Girea-HMI_Parameter_7 Bezeichnung": {
+        "ns": 1,
+        "i": 820
+    },
+    "Girea-HMI_Parameter_7 Wert": {
+        "ns": 1,
+        "i": 821
+    },
+    "Girea-HMI_Parameter_7 Falsche eingabe": {
+        "ns": 1,
+        "i": 822
+    },
+    "Girea-HMI_Parameter_8 Bezeichnung": {
+        "ns": 1,
+        "i": 823
+    },
+    "Girea-HMI_Parameter_8 Wert": {
+        "ns": 1,
+        "i": 824
+    },
+    "Girea-HMI_Parameter_8 Falsche eingabe": {
+        "ns": 1,
+        "i": 825
+    },
+    "Girea-HMI_Parameter_9 Bezeichnung": {
+        "ns": 1,
+        "i": 826
+    },
+    "Girea-HMI_Parameter_9 Wert": {
+        "ns": 1,
+        "i": 827
+    },
+    "Girea-HMI_Parameter_9 Falsche eingabe": {
+        "ns": 1,
+        "i": 828
+    },
+    "Girea-HMI_Parameter_10 Bezeichnung": {
+        "ns": 1,
+        "i": 829
+    },
+    "Girea-HMI_Parameter_10 Wert": {
+        "ns": 1,
+        "i": 830
+    },
+    "Girea-HMI_Parameter_10 Falsche eingabe": {
+        "ns": 1,
+        "i": 831
+    },
+    "Girea-HMI_Parameter_Speichern": {
+        "ns": 1,
+        "i": 832
+    },
+    "Girea-HMI_Parameter_Laden": {
+        "ns": 1,
+        "i": 833
+    },
+    "Girea-HMI_Parameter_11 Bezeichnung": {
+        "ns": 1,
+        "i": 834
+    },
+    "Girea-HMI_Parameter_11 Wert": {
+        "ns": 1,
+        "i": 835
+    },
+    "Girea-HMI_Parameter_11 Falsche eingabe": {
+        "ns": 1,
+        "i": 836
+    },
+    "Girea-HMI_Parameter_12 Bezeichnung": {
+        "ns": 1,
+        "i": 837
+    },
+    "Girea-HMI_Parameter_12 Wert": {
+        "ns": 1,
+        "i": 838
+    },
+    "Girea-HMI_Parameter_12 Falsche eingabe": {
+        "ns": 1,
+        "i": 839
+    },
+    "Girea-HMI_Parameter_13 Bezeichnung": {
+        "ns": 1,
+        "i": 840
+    },
+    "Girea-HMI_Parameter_13 Wert": {
+        "ns": 1,
+        "i": 841
+    },
+    "Girea-HMI_Parameter_13 Falsche eingabe": {
+        "ns": 1,
+        "i": 842
+    },
+    "Girea-HMI_Parameter_14 Bezeichnung": {
+        "ns": 1,
+        "i": 843
+    },
+    "Girea-HMI_Parameter_14 Wert": {
+        "ns": 1,
+        "i": 844
+    },
+    "Girea-HMI_Parameter_14 Falsche eingabe": {
+        "ns": 1,
+        "i": 845
+    },
+    "Girea-HMI_Parameter_15 Bezeichnung": {
+        "ns": 1,
+        "i": 846
+    },
+    "Girea-HMI_Parameter_15 Wert": {
+        "ns": 1,
+        "i": 847
+    },
+    "Girea-HMI_Parameter_15 Falsche eingabe": {
+        "ns": 1,
+        "i": 848
+    },
+    "Girea-HMI_Parameter_16 Bezeichnung": {
+        "ns": 1,
+        "i": 849
+    },
+    "Girea-HMI_Parameter_16 Wert": {
+        "ns": 1,
+        "i": 850
+    },
+    "Girea-HMI_Parameter_16 Falsche eingabe": {
+        "ns": 1,
+        "i": 851
+    },
+    "Girea-HMI_Parameter_17 Bezeichnung": {
+        "ns": 1,
+        "i": 852
+    },
+    "Girea-HMI_Parameter_17 Wert": {
+        "ns": 1,
+        "i": 853
+    },
+    "Girea-HMI_Parameter_17 Falsche eingabe": {
+        "ns": 1,
+        "i": 854
+    },
+    "Girea-HMI_Parameter_18 Bezeichnung": {
+        "ns": 1,
+        "i": 855
+    },
+    "Girea-HMI_Parameter_18 Wert": {
+        "ns": 1,
+        "i": 856
+    },
+    "Girea-HMI_Parameter_18 Falsche eingabe": {
+        "ns": 1,
+        "i": 857
+    },
+    "Girea-HMI_Parameter_19 Bezeichnung": {
+        "ns": 1,
+        "i": 858
+    },
+    "Girea-HMI_Parameter_19 Wert": {
+        "ns": 1,
+        "i": 859
+    },
+    "Girea-HMI_Parameter_19 Falsche eingabe": {
+        "ns": 1,
+        "i": 860
+    },
+    "Girea-HMI_Parameter_20 Bezeichnung": {
+        "ns": 1,
+        "i": 861
+    },
+    "Girea-HMI_Parameter_20 Wert": {
+        "ns": 1,
+        "i": 862
+    },
+    "Girea-HMI_Parameter_20 Falsche eingabe": {
+        "ns": 1,
+        "i": 863
+    },
+    "Girea-HMI_Verbraucher_[0]_Parameter_Komponenten art": {
+        "ns": 1,
+        "i": 864
+    },
+    "Girea-HMI_Verbraucher_[1]_Parameter_Komponenten art": {
+        "ns": 1,
+        "i": 865
+    },
+    "Girea-HMI_Verbraucher_[2]_Parameter_Komponenten art": {
+        "ns": 1,
+        "i": 866
+    },
+    "Girea-HMI_Verbraucher_[3]_Parameter_Komponenten art": {
+        "ns": 1,
+        "i": 867
+    },
+    "Girea-HMI_Verbraucher_[4]_Parameter_Komponenten art": {
+        "ns": 1,
+        "i": 868
+    },
+    "Girea-HMI_Verbraucher_[5]_Parameter_Komponenten art": {
+        "ns": 1,
+        "i": 869
+    },
+    "Girea-HMI_Verbraucher_[6]_Parameter_Komponenten art": {
+        "ns": 1,
+        "i": 870
+    },
+    "Girea-HMI_Verbraucher_[7]_Parameter_Komponenten art": {
+        "ns": 1,
+        "i": 871
+    },
+    "Girea-HMI_Verbraucher_[8]_Parameter_Komponenten art": {
+        "ns": 1,
+        "i": 872
+    },
+    "Girea-HMI_Verbraucher_[9]_Parameter_Komponenten art": {
+        "ns": 1,
+        "i": 873
+    },
+    "Girea-HMI_Verbraucher_[10]_Parameter_Komponenten art": {
+        "ns": 1,
+        "i": 874
+    },
+    "Girea-HMI_Verbraucher_[11]_Parameter_Komponenten art": {
+        "ns": 1,
+        "i": 875
+    },
+    "Girea-HMI_EMS_system_debag": {
+        "ns": 1,
+        "i": 876
+    },
+    "Girea-HMI_Parameter_1 info": {
+        "ns": 1,
+        "i": 877
+    },
+    "Girea-HMI_Parameter_2 info": {
+        "ns": 1,
+        "i": 878
+    },
+    "Girea-HMI_Parameter_3 info": {
+        "ns": 1,
+        "i": 879
+    },
+    "Girea-HMI_Parameter_4 info": {
+        "ns": 1,
+        "i": 880
+    },
+    "Girea-HMI_Parameter_5 info": {
+        "ns": 1,
+        "i": 881
+    },
+    "Girea-HMI_Parameter_6 info": {
+        "ns": 1,
+        "i": 882
+    },
+    "Girea-HMI_Parameter_7 info": {
+        "ns": 1,
+        "i": 883
+    },
+    "Girea-HMI_Parameter_8 info": {
+        "ns": 1,
+        "i": 884
+    },
+    "Girea-HMI_Parameter_9 info": {
+        "ns": 1,
+        "i": 885
+    },
+    "Girea-HMI_Parameter_10 info": {
+        "ns": 1,
+        "i": 886
+    },
+    "Girea-HMI_Parameter_11 info": {
+        "ns": 1,
+        "i": 887
+    },
+    "Girea-HMI_Parameter_12 info": {
+        "ns": 1,
+        "i": 888
+    },
+    "Girea-HMI_Parameter_13 info": {
+        "ns": 1,
+        "i": 889
+    },
+    "Girea-HMI_Parameter_14 info": {
+        "ns": 1,
+        "i": 890
+    },
+    "Girea-HMI_Parameter_15 info": {
+        "ns": 1,
+        "i": 891
+    },
+    "Girea-HMI_Parameter_16 info": {
+        "ns": 1,
+        "i": 892
+    },
+    "Girea-HMI_Parameter_17 info": {
+        "ns": 1,
+        "i": 893
+    },
+    "Girea-HMI_Parameter_18 info": {
+        "ns": 1,
+        "i": 894
+    },
+    "Girea-HMI_Parameter_19 info": {
+        "ns": 1,
+        "i": 895
+    },
+    "Girea-HMI_Parameter_20 info": {
+        "ns": 1,
+        "i": 896
+    },
+    "Girea-HMI_Erzeuger_[0]_Parameter_d\u00e4mpfung morgen": {
+        "ns": 1,
+        "i": 897
+    },
+    "Girea-HMI_Erzeuger_[0]_Parameter_d\u00e4mpfung abend": {
+        "ns": 1,
+        "i": 898
+    },
+    "Girea-HMI_Erzeuger_[0]_Parameter_kWp": {
+        "ns": 1,
+        "i": 899
+    },
+    "Girea-HMI_Erzeuger_[0]_Parameter_max kVA": {
+        "ns": 1,
+        "i": 900
+    },
+    "Girea-HMI_Erzeuger_[1]_Parameter_d\u00e4mpfung morgen": {
+        "ns": 1,
+        "i": 901
+    },
+    "Girea-HMI_Erzeuger_[1]_Parameter_d\u00e4mpfung abend": {
+        "ns": 1,
+        "i": 902
+    },
+    "Girea-HMI_Erzeuger_[1]_Parameter_kWp": {
+        "ns": 1,
+        "i": 903
+    },
+    "Girea-HMI_Erzeuger_[1]_Parameter_max kVA": {
+        "ns": 1,
+        "i": 904
+    },
+    "Girea-HMI_Erzeuger_[2]_Parameter_d\u00e4mpfung morgen": {
+        "ns": 1,
+        "i": 905
+    },
+    "Girea-HMI_Erzeuger_[2]_Parameter_d\u00e4mpfung abend": {
+        "ns": 1,
+        "i": 906
+    },
+    "Girea-HMI_Erzeuger_[2]_Parameter_kWp": {
+        "ns": 1,
+        "i": 907
+    },
+    "Girea-HMI_Erzeuger_[2]_Parameter_max kVA": {
+        "ns": 1,
+        "i": 908
+    },
+    "Girea-Module_Parameter": {
+        "ns": 1,
+        "i": 909
+    },
+    "Girea-Module_Parameter_live bit": {
+        "ns": 1,
+        "i": 910
+    },
+    "Girea-Module_Parameter_zyklus": {
+        "ns": 1,
+        "i": 911
+    },
+    "Girea-HMI_Parameter_1 max char len": {
+        "ns": 1,
+        "i": 912
+    },
+    "Girea-HMI_Parameter_2 max char len": {
+        "ns": 1,
+        "i": 913
+    },
+    "Girea-HMI_Parameter_3 max char len": {
+        "ns": 1,
+        "i": 914
+    },
+    "Girea-HMI_Parameter_4 max char len": {
+        "ns": 1,
+        "i": 915
+    },
+    "Girea-HMI_Parameter_5 max char len": {
+        "ns": 1,
+        "i": 916
+    },
+    "Girea-HMI_Parameter_6 max char len": {
+        "ns": 1,
+        "i": 917
+    },
+    "Girea-HMI_Parameter_7 max char len": {
+        "ns": 1,
+        "i": 918
+    },
+    "Girea-HMI_Parameter_8 max char len": {
+        "ns": 1,
+        "i": 919
+    },
+    "Girea-HMI_Parameter_9 max char len": {
+        "ns": 1,
+        "i": 920
+    },
+    "Girea-HMI_Parameter_10 max char len": {
+        "ns": 1,
+        "i": 921
+    },
+    "Girea-HMI_Parameter_11 max char len": {
+        "ns": 1,
+        "i": 922
+    },
+    "Girea-HMI_Parameter_12 max char len": {
+        "ns": 1,
+        "i": 923
+    },
+    "Girea-HMI_Parameter_13 max char len": {
+        "ns": 1,
+        "i": 924
+    },
+    "Girea-HMI_Parameter_14 max char len": {
+        "ns": 1,
+        "i": 925
+    },
+    "Girea-HMI_Parameter_15 max char len": {
+        "ns": 1,
+        "i": 926
+    },
+    "Girea-HMI_Parameter_16 max char len": {
+        "ns": 1,
+        "i": 927
+    },
+    "Girea-HMI_Parameter_17 max char len": {
+        "ns": 1,
+        "i": 928
+    },
+    "Girea-HMI_Parameter_18 max char len": {
+        "ns": 1,
+        "i": 929
+    },
+    "Girea-HMI_Parameter_19 max char len": {
+        "ns": 1,
+        "i": 930
+    },
+    "Girea-HMI_Parameter_20 max char len": {
+        "ns": 1,
+        "i": 931
+    },
+    "Girea-Module_EMS_zyklus-time": {
+        "ns": 1,
+        "i": 932
+    },
+    "Girea-Module_Wetter_zyklus-time": {
+        "ns": 1,
+        "i": 933
+    },
+    "Girea-Module_DB_zyklus-time": {
+        "ns": 1,
+        "i": 934
+    },
+    "Girea-Module_SIM_zyklus-time": {
+        "ns": 1,
+        "i": 935
+    },
+    "Girea-Module_Parameter_zyklus-time": {
+        "ns": 1,
+        "i": 936
+    },
+    "Girea-Module_EMS_Core-time": {
+        "ns": 1,
+        "i": 937
+    },
+    "Girea-Module_Wetter_Core-time": {
+        "ns": 1,
+        "i": 938
+    },
+    "Girea-Module_DB_Core-time": {
+        "ns": 1,
+        "i": 939
+    },
+    "Girea-Module_SIM_Core-time": {
+        "ns": 1,
+        "i": 940
+    },
+    "Girea-Module_Parameter_Core-time": {
+        "ns": 1,
+        "i": 941
+    },
+    "Girea-Module_EMS_core-time": {
+        "ns": 1,
+        "i": 942
+    },
+    "Girea-Module_Wetter_core-time": {
+        "ns": 1,
+        "i": 943
+    },
+    "Girea-Module_DB_core-time": {
+        "ns": 1,
+        "i": 944
+    },
+    "Girea-Module_SIM_core-time": {
+        "ns": 1,
+        "i": 945
+    },
+    "Girea-Module_Parameter_core-time": {
+        "ns": 1,
+        "i": 946
+    },
+    "Girea-HMI_EMS_Parameter": {
+        "ns": 1,
+        "i": 947
+    },
+    "Girea-HMI_EMS_Parameter_api-Key-hand-eingabe": {
+        "ns": 1,
+        "i": 948
+    },
+    "Girea-HMI_EMS_Parameter_Lizens": {
+        "ns": 1,
+        "i": 949
+    },
+    "Girea-HMI_EMS_Parameter_standort": {
+        "ns": 1,
+        "i": 950
+    },
+    "Girea-HMI_EMS_Parameter_Lizens_Erzeuger": {
+        "ns": 1,
+        "i": 951
+    },
+    "Girea-HMI_EMS_Parameter_Lizens_Verbraucher": {
+        "ns": 1,
+        "i": 952
+    },
+    "Girea-HMI_EMS_Parameter_Lizens_Speicher": {
+        "ns": 1,
+        "i": 953
+    },
+    "Girea-HMI_EMS_Parameter_Lizens_Netzanbieter": {
+        "ns": 1,
+        "i": 954
+    },
+    "Girea-HMI_EMS_Parameter_standort_longitude": {
+        "ns": 1,
+        "i": 955
+    },
+    "Girea-HMI_EMS_Parameter_standort_latitude": {
+        "ns": 1,
+        "i": 956
+    },
+    "Girea-SPS_Erzeuger_[0]_automatik": {
+        "ns": 1,
+        "i": 957
+    },
+    "Girea-SPS_Erzeuger_[1]_automatik": {
+        "ns": 1,
+        "i": 958
+    },
+    "Girea-SPS_Erzeuger_[2]_automatik": {
+        "ns": 1,
+        "i": 959
+    },
+    "Girea-SPS_Verbraucher_[0]_automatik": {
+        "ns": 1,
+        "i": 960
+    },
+    "Girea-SPS_Verbraucher_[1]_automatik": {
+        "ns": 1,
+        "i": 961
+    },
+    "Girea-SPS_Verbraucher_[2]_automatik": {
+        "ns": 1,
+        "i": 962
+    },
+    "Girea-SPS_Verbraucher_[3]_automatik": {
+        "ns": 1,
+        "i": 963
+    },
+    "Girea-SPS_Verbraucher_[4]_automatik": {
+        "ns": 1,
+        "i": 964
+    },
+    "Girea-SPS_Verbraucher_[5]_automatik": {
+        "ns": 1,
+        "i": 965
+    },
+    "Girea-SPS_Verbraucher_[6]_automatik": {
+        "ns": 1,
+        "i": 966
+    },
+    "Girea-SPS_Verbraucher_[7]_automatik": {
+        "ns": 1,
+        "i": 967
+    },
+    "Girea-SPS_Verbraucher_[8]_automatik": {
+        "ns": 1,
+        "i": 968
+    },
+    "Girea-SPS_Verbraucher_[9]_automatik": {
+        "ns": 1,
+        "i": 969
+    },
+    "Girea-SPS_Verbraucher_[10]_automatik": {
+        "ns": 1,
+        "i": 970
+    },
+    "Girea-SPS_Verbraucher_[11]_automatik": {
+        "ns": 1,
+        "i": 971
+    },
+    "Girea-SPS_Speicher_[0]_automatik": {
+        "ns": 1,
+        "i": 972
+    },
+    "Girea-SPS_Speicher_[1]_automatik": {
+        "ns": 1,
+        "i": 973
+    },
+    "Girea-SPS_Netzanbieter_[0]_automatik": {
+        "ns": 1,
+        "i": 974
+    },
+    "Girea-Module_Summe": {
+        "ns": 1,
+        "i": 975
+    },
+    "Girea-Module_Summe_live bit": {
+        "ns": 1,
+        "i": 976
+    },
+    "Girea-Module_Summe_zyklus": {
+        "ns": 1,
+        "i": 977
+    },
+    "Girea-Module_Summe_zyklus-time": {
+        "ns": 1,
+        "i": 978
+    },
+    "Girea-Module_Summe_core-time": {
+        "ns": 1,
+        "i": 979
+    },
+    "Girea-HMI_EMS_system_Loade backup": {
+        "ns": 1,
+        "i": 980
+    },
+    "Girea-HMI_Wetter_SIMstartstopp": {
+        "ns": 1,
+        "i": 981
+    },
+    "Girea-HMI_Erzeuger_[0]_live int kW": {
+        "ns": 1,
+        "i": 982
+    },
+    "Girea-HMI_Erzeuger_[1]_live int kW": {
+        "ns": 1,
+        "i": 983
+    },
+    "Girea-HMI_Erzeuger_[2]_live int kW": {
+        "ns": 1,
+        "i": 984
+    },
+    "Girea-HMI_Verbraucher_[0]_live int kW": {
+        "ns": 1,
+        "i": 985
+    },
+    "Girea-HMI_Verbraucher_[1]_live int kW": {
+        "ns": 1,
+        "i": 986
+    },
+    "Girea-HMI_Verbraucher_[2]_live int kW": {
+        "ns": 1,
+        "i": 987
+    },
+    "Girea-HMI_Verbraucher_[3]_live int kW": {
+        "ns": 1,
+        "i": 988
+    },
+    "Girea-HMI_Verbraucher_[4]_live int kW": {
+        "ns": 1,
+        "i": 989
+    },
+    "Girea-HMI_Verbraucher_[5]_live int kW": {
+        "ns": 1,
+        "i": 990
+    },
+    "Girea-HMI_Verbraucher_[6]_live int kW": {
+        "ns": 1,
+        "i": 991
+    },
+    "Girea-HMI_Verbraucher_[7]_live int kW": {
+        "ns": 1,
+        "i": 992
+    },
+    "Girea-HMI_Verbraucher_[8]_live int kW": {
+        "ns": 1,
+        "i": 993
+    },
+    "Girea-HMI_Verbraucher_[9]_live int kW": {
+        "ns": 1,
+        "i": 994
+    },
+    "Girea-HMI_Verbraucher_[10]_live int kW": {
+        "ns": 1,
+        "i": 995
+    },
+    "Girea-HMI_Verbraucher_[11]_live int kW": {
+        "ns": 1,
+        "i": 996
+    },
+    "Girea-HMI_Speicher_[0]_live int kW": {
+        "ns": 1,
+        "i": 997
+    },
+    "Girea-HMI_Speicher_[0]_live int kWh": {
+        "ns": 1,
+        "i": 998
+    },
+    "Girea-HMI_Speicher_[0]_Parameter_max kWh int": {
+        "ns": 1,
+        "i": 999
+    },
+    "Girea-HMI_Speicher_[1]_live int kW": {
+        "ns": 1,
+        "i": 1000
+    },
+    "Girea-HMI_Speicher_[1]_live int kWh": {
+        "ns": 1,
+        "i": 1001
+    },
+    "Girea-HMI_Speicher_[1]_Parameter_max kWh int": {
+        "ns": 1,
+        "i": 1002
+    },
+    "Girea-HMI_Netzanbieter_[0]_live int kW": {
+        "ns": 1,
+        "i": 1003
+    }
+}
