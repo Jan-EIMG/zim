@@ -1,0 +1,5 @@
+opcua
+opcua-webclient
+IPython
+jsons
+cryptography
