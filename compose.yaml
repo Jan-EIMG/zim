@@ -1,0 +1,139 @@
+version: '3.9'
+services:
+  ems:
+    build:
+      context: EMS
+      target: builder
+    stop_signal: SIGINT
+    restart: always
+    volumes:
+      - ./globals:/GIREA/globals:ro
+  
+  quickhmi:
+    build:
+      context: QuickHMI
+    restart: always
+    ports:
+      - "6064:6064"
+  
+  opcua:
+    build:
+      context: OPCUA
+      target: builder
+    stop_signal: SIGINT
+    restart: always
+    network_mode: "host"
+    ports:
+      - "4840:4840"
+
+  opcua2:
+    build:
+      context: OPCUA2
+      target: builder
+    stop_signal: SIGINT
+    restart: always
+    network_mode: "host"
+    ports:
+      - "4848:4848"
+  
+  parametrierung:
+    build:
+      context: Parametrierung
+      target: builder
+    stop_signal: SIGINT
+    restart: always
+    volumes:
+      - ./globals:/GIREA/globals:ro
+
+  sim:
+    build:
+      context: SIM
+      target: builder
+    stop_signal: SIGINT
+    restart: always
+    volumes:
+      - ./globals:/GIREA/globals:ro
+  
+  summe:
+    build:
+      context: Summe
+      target: builder
+    stop_signal: SIGINT
+    restart: always
+    volumes:
+      - ./globals:/GIREA/globals:ro
+
+
+  wetter:
+    build:
+      context: wetter
+      target: builder
+    stop_signal: SIGINT
+    restart: always
+    volumes:
+      - ./globals:/GIREA/globals:ro
+
+
+  backupSave:
+    build:
+      context: backup
+      target: builder
+    stop_signal: SIGINT
+    restart: always
+    deploy:
+      replicas: 1
+      update_config:
+        delay: 24h
+    volumes:
+      - ./globals:/GIREA/globals:ro
+      - ./saves:/GIREA/saves
+  
+  # backupLoade:
+  #   build:
+  #     context: backup
+  #     target: builder
+  #   stop_signal: SIGINT
+  #   restart: no
+  #   volumes:
+  #     - ./globals:/GIREA/globals:ro
+  #     - ./saves:/GIREA/saves:ro
+
+
+
+#   tailscale_M:
+#     image: tailscale/tailscale
+#     cap_add:
+#       - NET_ADMIN
+#       - NET_RAW
+#     environment:
+#       - TS_HOSTNAME=Girea-Track
+#       - TS_AUTHKEY=tskey-auth-k3x4yg6CNTRL-ccjAGokWneRTsJC2JVRCfRVRcnw8hzwiE
+#       - TS_ROUTES=192.168.1.0/24
+# #      - TS_ACCEPT_DNS=true # Set to false for Pi-hole Docker setups
+#       - TS_SOCKET=/var/run/tailscale/tailscaled.sock
+#       - TS_EXTRA_ARGS=--accept-routes
+#       - TS_STATE_DIR=/var/lib/tailscale
+#     volumes:
+#       - /volume1/docker/tailscaleM/data:/var/lib # Creates a tailscale directory under /data for persistence
+#       - /dev/net/tunM:/dev/net/tun
+#     network_mode: host
+#     restart: unless-stopped
+
+  tailscale_J:
+    image: tailscale/tailscale
+    cap_add:
+      - NET_ADMIN
+      - NET_RAW
+    environment:
+      - TS_HOSTNAME=Girea-Track
+      - TS_AUTHKEY=tskey-auth-koPRGhumor11CNTRL-mPVVaa4u9fiurugVPfmeeiVUMnuEt5H49
+      - TS_ROUTES=192.168.0.0/24
+#      - TS_ACCEPT_DNS=true # Set to false for Pi-hole Docker setups
+      - TS_SOCKET=/var/run/tailscale/tailscaled.sock
+      - TS_EXTRA_ARGS=--accept-routes
+      - TS_STATE_DIR=/var/lib/tailscale
+    volumes:
+      - /volume1/docker/tailscaleJ/data:/var/lib # Creates a tailscale directory under /data for persistence
+      - /dev/net/tunJ:/dev/net/tun
+    network_mode: host
+    restart: unless-stopped
