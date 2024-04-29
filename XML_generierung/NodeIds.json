@@ -4010,5 +4010,9 @@
     "Girea-HMI_Netzanbieter_[0]_live int kW": {
         "ns": 1,
         "i": 1003
+    },
+    "Girea-HMI_Parameter_Clear": {
+        "ns": 1,
+        "i": 1004
     }
 }

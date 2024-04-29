@@ -316,6 +316,7 @@ OPCdata = {
             "20 Falsche eingabe": False,
             "Speichern": False,
             "Laden": False,
+            "Clear": False,
         },
     },
     "Girea-SPS":{

@@ -6855,6 +6855,7 @@
       <Reference ReferenceType="HasComponent">ns=1;i=863</Reference>
       <Reference ReferenceType="HasComponent">ns=1;i=832</Reference>
       <Reference ReferenceType="HasComponent">ns=1;i=833</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=1004</Reference>
     </References>
   </UAObject>
   <UAVariable NodeId="ns=1;i=800" BrowseName="1:Girea-HMI_Parameter_ID" ParentNodeId="ns=1;i=799" DataType="String" AccessLevel="3" UserAccessLevel="3">
@@ -7993,6 +7994,17 @@
   <UAVariable NodeId="ns=1;i=833" BrowseName="1:Girea-HMI_Parameter_Laden" ParentNodeId="ns=1;i=799" DataType="Boolean" AccessLevel="3" UserAccessLevel="3">
     <DisplayName>Girea-HMI_Parameter_Laden</DisplayName>
     <Description>Girea-HMI_Parameter_Laden</Description>
+    <References>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=799</Reference>
+      <Reference ReferenceType="HasTypeDefinition">i=58</Reference>
+    </References>
+    <Value>
+      <uax:Boolean>False</uax:Boolean>
+    </Value>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=1004" BrowseName="1:Girea-HMI_Parameter_Clear" ParentNodeId="ns=1;i=799" DataType="Boolean" AccessLevel="3" UserAccessLevel="3">
+    <DisplayName>Girea-HMI_Parameter_Clear</DisplayName>
+    <Description>Girea-HMI_Parameter_Clear</Description>
     <References>
       <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=799</Reference>
       <Reference ReferenceType="HasTypeDefinition">i=58</Reference>
